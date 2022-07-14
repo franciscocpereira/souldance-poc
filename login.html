@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Souldance PoC</title>
+        
+        <!-- Sass -->
+        <link rel="stylesheet" href="/assets/styles/css/fonts.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/styles.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/animations.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/header-navigation.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/login-mobile.css" type="text/css" charset="utf-8">
+
+        <!-- Components CSS -->
+        <link rel="stylesheet" href="/assets/styles/css/aula-experimental.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/bottom-promotion.css" type="text/css" charset="utf-8">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/souldance_logo_icon_positive.svg"/>
+        <link rel="icon" type="image/png" href="https://code-server.kuji.pt/assets/media/souldance_logo_icon_positive.svg"/>
+
+	</head>
+	<body>
+        <div id="app">
+        <header-navigation></header-navigation>
+        <main>
+            <section class="login">
+                <div class="grid-1">
+                    <div class="">
+                        <h2 class="section-h2">Login</h2>
+                    </div>
+                    
+                    <div class="subgrid">
+                        <h6>Email*</h6>
+                        <div class="">
+                            <input type="text" placeholder="example@address.com" required></input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid">
+                        <h6>Password*</h6>
+                        <div class="">
+                            <input type="text" placeholder="password" required></input>
+                        </div>
+                    </div>
+
+                    <div class="login-links">
+                        <div class="text-center">
+                            <a class="line-link" href="">Esqueceu a sua password?</a>
+                        </div>
+
+                        <div class="section-link text-center">
+                            <a class="button" href="">Entrar</a>
+                        </div>
+
+                        <div class="text-center">
+                            <a class="section-mobile-a" href="/register.html">Registar</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        </div>
+
+        <!-- JS -->
+        <script src="/assets/scripts/main.js"></script>
+
+        <!-- Vue Development -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+        <!-- Vue Production -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+
+        <!-- Axios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+
+        <!-- Components -->
+		<script src="assets/scripts/components/header-navigation.js"></script>
+        <script src="assets/scripts/components/aula-experimental.js"></script>
+		<script src="assets/scripts/components/bottom-promotion.js"></script>
+        <script src="assets/scripts/components/bottom-navigation.js"></script>
+
+        <!-- App -->
+		<script src="assets/scripts/index.js"></script>
+
+	</body>
+</html>

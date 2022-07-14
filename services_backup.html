@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Souldance PoC</title>
+
+    
+
+        <!-- CSS -->
+        <!-- <link rel="stylesheet" href="/assets/styles/fonts.css" type="text/css" charset="utf-8">  -->
+        <!-- <link rel="stylesheet" href="/assets/styles/main.css" type="text/css" charset="utf-8"> -->
+        <!-- <link rel="stylesheet" href="/assets/styles/modalidades.css" type="text/css" charset="utf-8"> -->
+        <!-- <link rel="stylesheet" href="/assets/styles/workshops.css" type="text/css" charset="utf-8"> -->
+        <!-- <link rel="stylesheet" href="/assets/styles/carousel-modalidades.css" type="text/css" charset="utf-8"> -->
+        
+        <!-- Sass -->
+        <link rel="stylesheet" href="/assets/styles/css/fonts.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/styles.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/animations.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/header-navigation.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/header-hero.css" type="text/css" charset="utf-8">
+        <!-- <link rel="stylesheet" href="/assets/styles/css/homepage.css" type="text/css" charset="utf-8"> -->
+        <link rel="stylesheet" href="/assets/styles/css/services.css" type="text/css" charset="utf-8">
+
+        <!-- Components CSS -->
+        <link rel="stylesheet" href="/assets/styles/css/aula-experimental.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/bottom-promotion.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/login.css" type="text/css" charset="utf-8">
+        
+
+        <!-- Components CSS -->
+        <!-- <link rel="stylesheet" href="/assets/scripts/components/styles/bottom-promotion.css" type="text/css" charset="utf-8"> -->
+        <!-- <link rel="stylesheet" href="/assets/scripts/components/styles/aula-experimental.css" type="text/css" charset="utf-8"> -->
+
+        <!-- Debug CSS File -->
+        <!-- <link rel="stylesheet" href="assets/styles/debug.css"> -->
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/souldance_logo_icon_positive.svg"/>
+        <link rel="icon" type="image/png" href="https://code-server.kuji.pt/assets/media/souldance_logo_icon_positive.svg"/>
+
+	</head>
+	<body>
+        <div id="app">
+        <header-navigation></header-navigation>
+        <main>
+            <section class="banner">
+                <video playsinline autoplay muted loop poster="/assets/media/header_preload.svg" id="bgvid" preload="auto">
+                    <!-- <source src="/assets/media/videoheader.webm" type="video/webm"> -->
+                    <source src="https://code-server.kuji.pt/assets/media/schoolheader.mp4" type="video/mp4">
+                </video>
+
+                <div class="container">
+                       
+                    <h1 id="hero-headline">Serviços</h1>
+                    <p id="hero-text-desktop">At tellus at urna condimentum mattis.<br> Facilisis magna etiam tempor orci eu lobortis<br>elementum nibh tellus. </p>
+                    <p id="hero-text-mobile">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. </p>
+    
+                    
+                </div>
+
+                <div class="container bottom-info">
+                    <div class="bottom-inner">
+                        <div class="bottom-inner">
+                            <hr id="dash1">
+                            <p id="hero-signature">magna aliquam erat volutpat</p>
+                        </div>
+                        
+                        <div class="bottom-social">
+                            <img class="icon" src="/assets/media/icons/insta.svg"/>
+                            <img class="icon" src="/assets/media/icons/facebook.svg"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="workshops grid-1">
+                <h6>Workshops</h6>
+                <p class="hero-copy">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus. </p>
+
+                <div class="">
+                    <div class="subgrid-2">
+                        <article class="workshops-card">
+                            <div style="background-image: url('https://code-server.kuji.pt/assets/media/workshops_thumb.png');" class="workshops-img">
+                                <div class="workshops-content-overlay">
+                                    <div class="top-right">01/03/22</div>
+                                </div>
+                            </div>
+                           
+                            <h4 class="article-header">eventualmente talvez, título grande</h4>
+                            <p class="workshop-description">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus.</p>
+                            <div class="section-link">
+                                <a class="button-small" href="">Inscrever</a>
+                            </div>
+                            
+                        </article>
+                        <article class="workshops-card">
+                            <div style="background-image: url('https://code-server.kuji.pt/assets/media/workshop_2.png');" class="workshops-img">
+                                <div class="workshops-content-overlay">
+                                    <div class="top-right">01/03/22</div>
+                                </div>
+                            </div>
+                            
+                            <h4 class="article-header">eventualmente talvez, título grande</h4>
+                            <p class="workshop-description">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus.</p>
+                            <div class="section-link">
+                                <a class="button-small-disabled" href="">Esgotado</a>
+                            </div>
+                            
+                        </article>
+                    </div>
+                    <div>
+                        <a class="section-link-drop">Workshops anteriores
+                            <div class="icon-small">
+                                <svg classwidth="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7072 1.70725L7.70725 7.70725C7.31625 8.09825 6.68425 8.09825 6.29325 7.70725L0.29325 1.70725C-0.09775 1.31625 -0.09775 0.68425 0.29325 0.29325C0.68425 -0.09775 1.31625 -0.09775 1.70725 0.29325L7.00025 5.58625L12.2933 0.29325C12.6842 -0.09775 13.3162 -0.09775 13.7072 0.29325C13.9022 0.48825 14.0002 0.74425 14.0002 1.00025C14.0002 1.25625 13.9022 1.51225 13.7072 1.70725Z" fill="black"/>
+                                </svg>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="events grid-1">
+                <h6>Eventos</h6>
+                <p class="hero-copy">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus. </p>
+
+                <div class="">
+                    <article class="events-card">
+                        <div style="background-image: url('https://code-server.kuji.pt/assets/media/event_1.png');" class="events-img">
+                            <div class="events-content-overlay">
+                                
+                            </div>
+                        </div>
+                        <span class="events-img-description">Festival X | Fotografia: <i>Daniel Machado</i> 10/06/19</span>
+                       
+                        <h4 class="article-header">eventualmente talvez,<br> título grande</h4>
+                        <p class="workshop-description">Elementum nisi quis eleifend quam adipiscing vitae proin. Lacus viverra vitae congue eu consequat ac. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Aliquam eleifend mi in nulla posuere sollicitudin. Tristique magna sit amet purus gravida quis blandit turpis cursus. Eget arcu dictum varius duis at.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="weddings grid-1">
+                <h6>Casamentos</h6>
+                <p class="hero-copy">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus. </p>
+
+                <div class="">
+                    <article class="events-card">
+                        <div style="background-image: url('https://code-server.kuji.pt/assets/media/casamentos.png');" class="events-img">
+                            
+                        </div>
+                        
+                       
+                        <h4 class="article-header">Aulas para Casamentos</h4>
+                        <span class="events-img-description">Noivas — Noivos — Madrinhas — Padrinhos — Grupos</span>
+                        <p class="workshop-description">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus.</p>
+                    </article>
+                </div>
+            </section>
+            
+            <section class="contact-form">
+                <div class="grid-1">
+                    <div class="">
+                        <h2 class="section-h2">Formulário<br>de contacto</h2>
+                    </div>
+                    
+                    <div class="subgrid-2-auto">
+                        <div class="subgrid">
+                            <h6>Serviço</h6>
+                            <select class="round" required>
+                                <option>Aulas para noivas</option>
+                                <option>Aulas para noivos</option>
+                                <option>Aulas para madrinhas</option>
+                                <option>Aulas para padrinhos</option>
+                                <option>Aulas para grupos</option>
+                            </select>
+                        </div>
+
+                        <div class="subgrid">
+                            <h6>Pessoas*</h6>
+                            <input class="people" type="text" placeholder="0" maxlength="3" required>
+                                
+                            </input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid-2">
+                        <div class="subgrid">
+                            <h6>Primeiro nome*</h6>
+                            <input type="text" placeholder="Primeiro nome" required></input>
+                        </div>
+
+                        <div class="subgrid">
+                            <h6>Último nome*</h6>
+                            <input type="text" placeholder="Último nome" required>
+                            </input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid">
+                        <h6>Email*</h6>
+                        <div class="">
+                            <input type="text" placeholder="example@address.com" required></input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid">
+                        <h6>Confirmar Email*</h6>
+                        <div class="">
+                            <input type="text" placeholder="example@address.com" required></input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid">
+                        <h6>Mensagem*</h6>
+                        <div class="">
+                            <textarea type="text" placeholder="Escreva a sua mensagem" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="subgrid-flex">
+                        <input type="checkbox" id="checkboxInputOverride" name="checkboxInputOverride" required>
+                            <label for="checkboxInputOverride">Aceito a <a class="link-underline" href="www.google.com" target="_blank">Política de processamento de dados</a>.</label>
+                        </input>
+                    </div>
+
+                    <div class="subgrid-flex">
+                        <input type="checkbox" id="checkboxInputOverride" name="checkboxInputOverride" required>
+                            <label for="checkboxInputOverride">Aceito os <a class="link-underline" href="www.google.com" target="_blank">Termos de uso</a> do website.</label>
+                        </input>
+                    </div>
+
+                    
+                    <div class="section-link">
+                        <a class="button-purple" href="">Enviar</a>
+                    </div>
+
+                        
+                </div>
+            </section>
+            
+            
+        </main>
+    
+        <bottom-navigation>
+        </bottom-navigation>
+        </div>
+
+
+        <!-- JS -->
+        <script src="/assets/scripts/main.js"></script>
+
+        <!-- Vue Development -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+        <!-- Vue Production -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+
+        <!-- Axios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+
+        <!-- Components -->
+		<script src="assets/scripts/components/header-navigation.js"></script>
+        <script src="assets/scripts/components/aula-experimental.js"></script>
+		<script src="assets/scripts/components/bottom-promotion.js"></script>
+        <script src="assets/scripts/components/bottom-navigation.js"></script>
+        <script src="assets/scripts/components/accordion.js"></script>
+        <script src="assets/scripts/components/schedule.js"></script>
+        
+
+        <!-- App -->
+		<script src="assets/scripts/index.js"></script>
+
+        <!-- Field Masking 
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/masking-input.js" data-autoinit="true"></script>-->
+
+        <!-- finding overflow items -->
+
+        
+        <!-- <script>
+            var all = document.getElementsByTagName("*"), i = 0, rect, docWidth = document.documentElement.offsetWidth;
+                for (; i < all.length; i++) {
+                    rect = all[i].getBoundingClientRect();
+                    if (rect.right > docWidth || rect.left < 0){
+                        console.log(all[i]);
+                        all[i].style.borderTop = '1px solid red';
+                    }
+            }
+        </script> -->
+        
+
+	</body>
+</html>

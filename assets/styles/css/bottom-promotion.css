@@ -1,0 +1,157 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 5, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-desktop {
+  display: none;
+  background: url(/assets/media/souldance_kids_promo_bg_desktop.png);
+  background-position: 70ch -3rem;
+  background-repeat: no-repeat;
+}
+
+/* line 13, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-desktop-container {
+  display: grid;
+  max-width: 1280px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "promotion-copy promotion-copy . .";
+  gap: 20px;
+  padding: 70px;
+  margin: 0 auto;
+}
+
+/* line 24, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-desktop-container div h2 span {
+  color: #836BD1;
+}
+
+/* line 29, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-desktop-container div p {
+  font-size: 0.9rem;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-desktop-copy div {
+  grid-area: promotion-copy;
+}
+
+/* line 41, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-desktop-copy h2 {
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+/* line 45, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-desktop-copy p {
+  max-width: 380px;
+}
+
+/* line 53, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-mobile {
+  min-height: 40vh;
+  background-image: url("/assets/media/souldance_kids_promo_bg_mobile.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 68, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-mobile .container h2 {
+  padding-bottom: 12.5px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* line 73, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-mobile .container h2 span {
+  color: #836BD1;
+}
+
+/* line 78, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-mobile .container button {
+  padding-bottom: 15px;
+  background-color: #836BD1;
+}
+
+/* line 84, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+.bottom-promotion-mobile .section-p {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 104, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+  .bottom-promotion-desktop {
+    display: block;
+  }
+  /* line 108, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+  .bottom-promotion-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* line 116, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+  .bottom-promotion-desktop {
+    background-position: 50vw -3rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* line 125, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+  .bottom-promotion-desktop {
+    background-size: 60%;
+  }
+  /* line 129, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/bottom-promotion.scss */
+  .bottom-promotion-desktop-container {
+    max-width: 1600px;
+  }
+}
+
+/*# sourceMappingURL=bottom-promotion.css.map */

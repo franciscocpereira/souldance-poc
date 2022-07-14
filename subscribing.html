@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Souldance PoC</title>
+        
+        <!-- Sass -->
+        <link rel="stylesheet" href="/assets/styles/css/fonts.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/styles.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/animations.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/header-navigation.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/subscribing-mobile.css" type="text/css" charset="utf-8">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/souldance_logo_icon_positive.svg"/>
+        <link rel="icon" type="image/png" href="https://code-server.kuji.pt/assets/media/souldance_logo_icon_positive.svg"/>
+
+	</head>
+	<body>
+        <div id="app">
+        <header-navigation></header-navigation>
+        <main>
+            <section class="subscribing">
+                <div class="grid-1">
+                    <div class="">
+                        <h2 class="section-h2">Adesão</h2>
+                        <p class="text-center">Por favor introduza os seus detalhes para continuar</p>
+                    </div>
+                    
+                    <div class="subgrid-2">
+                        <div class="subgrid">
+                            <h6>Primeiro nome*</h6>
+                            <input type="text" placeholder="Primeiro nome" required></input>
+                        </div>
+
+                        <div class="subgrid">
+                            <h6>Último nome*</h6>
+                            <input type="text" placeholder="Último nome" required></input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid-2">
+                        <div class="subgrid">
+                            <h6>Telemóvel*</h6>
+                            <input title="9-digit cellphone number" type="text" pattern="\d*" maxlength="9" placeholder="918526395" data-valid-example="913781495" required></input>
+                        </div>
+
+                        <div class="subgrid">
+                            <h6>Data de Nascimento*</h6>
+                            <input type="text" placeholder="00/00/00" required></input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid">
+                        <h6>Morada*</h6>
+                        <div class="">
+                            <input type="text" placeholder="ex: Avenida Almirante Reis, 23 2 D" required></input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid-2">
+                        <div class="subgrid">
+                            <h6>Código Postal*</h6>
+                            <input type="text" maxlength="7" placeholder="0000-000" data-valid-example="1100-203" required></input>
+                        </div>
+
+                        <div class="subgrid">
+                            <h6>Localidade*</h6>
+                            <input type="text" placeholder="00/00/00" required></input>
+                        </div>
+                    </div>
+
+                    <div class="subgrid">
+                        <h6>Encarregado de educação (quando aplicável)</h6>
+                        <input type="text" placeholder="Nome"></input>
+                    </div>
+
+                    <div class="subgrid">
+                        <h6>Contacto de emergência</h6>
+                        <input type="text" placeholder="Nº do contacto"></input>
+                    </div>
+
+
+                    <h6>Experiência</h6>
+                    <div class="subgrid-flex">
+                        
+                        <div class="subgrid-flex">
+                            <label for="r1">Sim</label>
+                            <input type="radio" id="r1" value="Yes" v-model="experience" name="experience" required>
+                            </input>
+                        </div>
+                        <div class="subgrid-flex">
+                            <label for="r2" style="padding-left:10px">Não</label>
+                            <input type="radio" id="r2" value="No" v-model="experience" name="experience">
+                            </input>
+                        </div>
+                    </div>
+
+                    <div class="register-links">
+                        <div class="section-link text-center">
+                            <a class="button-purple" href="">Enviar</a>
+                        </div>
+
+                        <div class="text-center">
+                            <a class="section-mobile-a" href="/login.html">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        </div>
+
+        <!-- JS -->
+        <script src="/assets/scripts/main.js"></script>
+
+        <!-- Vue Development -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+        <!-- Vue Production -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+
+        <!-- Axios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+
+        <!-- Components -->
+		<script src="assets/scripts/components/header-navigation.js"></script>
+        <script src="assets/scripts/components/aula-experimental.js"></script>
+		<script src="assets/scripts/components/bottom-promotion.js"></script>
+        <script src="assets/scripts/components/bottom-navigation.js"></script>
+
+        <!-- App -->
+		<script src="assets/scripts/index.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,256 @@
+/* line 3, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+body {
+  background-color: #E2DCF9;
+}
+
+/* line 7, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+section {
+  background: none;
+}
+
+/* line 13, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing {
+  display: grid;
+  align-items: center;
+  padding: 30px;
+}
+
+/* line 18, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing h2 {
+  text-align: left;
+  padding: 120px 0px 15px;
+}
+
+/* line 23, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 28, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing p {
+  max-width: 200px;
+  text-align: left;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing .grid-1 {
+  gap: 20px;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing .subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 41, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing .subgrid {
+  display: grid;
+  gap: 10px;
+}
+
+/* line 46, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing .subgrid-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 52, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* line 56, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+/* line 61, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.pricing .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+/* line 85, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-box {
+  border: 2px solid #55ADFF;
+  border-radius: 5px;
+  cursor: pointer;
+  display: grid;
+  gap: 5px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* line 94, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-box .add-price-list {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  transform: rotate(45deg);
+}
+
+/* line 93, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.price-box .add-price-list path {
+  fill: #55ADFF;
+}
+
+/* line 98, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-box .class-schedule {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding-bottom: 5px;
+}
+
+/* line 105, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.promo-box {
+  border: 2px solid #4BCD4A;
+  border-radius: 5px;
+  cursor: pointer;
+  display: grid;
+  gap: 5px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* line 114, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.promo-box .add-price-list {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  transform: rotate(45deg);
+}
+
+/* line 93, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.promo-box .add-price-list path {
+  fill: #4BCD4A;
+}
+
+/* line 119, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.promo-disclaimer {
+  font-size: 0.7rem;
+  font-weight: 100;
+  line-height: 1.5;
+  padding: 5px 0px 5px 0px;
+}
+
+/* line 126, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-strike {
+  text-decoration: line-through;
+  font-size: 0.7rem;
+}
+
+/* line 131, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* line 136, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator {
+  padding-top: 20px;
+}
+
+/* line 139, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator h6 {
+  color: #836BD1;
+}
+
+/* line 143, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator hr {
+  border: 1px solid black;
+}
+
+/* line 147, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator .price-result {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+/* line 155, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator .price-result .price {
+  font-size: 1.4rem;
+}
+
+/* line 162, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator-list {
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 169, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator-list h6 {
+  color: black;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+/* line 175, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator-list .promo-tag {
+  border: 1px solid black;
+  font-size: 0.8rem;
+  padding: 3px 6px 3px 6px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+/* line 183, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator-list .price-calculator-list-item-promo {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto 1fr auto 15% auto;
+  align-items: center;
+}
+
+/* line 190, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator-list .price-calculator-list-item {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 15% auto;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+/* line 198, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.price-calculator-list .remove-item {
+  border: 1px solid black;
+  font-size: 0.8rem;
+  padding: 3px 6px 3px 6px;
+  border-radius: 3px;
+}
+
+/* line 209, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+.section-link {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  justify-content: center;
+}
+
+/* line 219, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/pricing copy.scss */
+input[type=text] {
+  background: none;
+}
+
+/*# sourceMappingURL=pricing copy.css.map */

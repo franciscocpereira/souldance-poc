@@ -1,0 +1,209 @@
+@import 'variables.scss';
+
+
+#hero-text-mobile {
+    color: $purple;
+    margin-bottom: 30px;
+}
+
+#hero-text-desktop {
+    display: none;
+    color: $purple;
+}
+
+#hero-signature {
+    padding: 0px 0px 0px 15px;
+    margin-bottom:0px;
+}
+
+#hero-headline {
+    margin-bottom:10px;
+}
+
+main {
+    section{
+        
+        video {
+            object-fit: cover;
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+        }
+
+        &.banner {
+            color: #fff;
+            position: relative;
+            min-height: 100vh;
+            max-width:100vw;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            /*background-image: url("/assets/media/header.png");*/
+            background-position: center center;
+            background-size: cover;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .container {
+                position: relative;
+                z-index: 1;
+
+                h1 {
+                    font-size: 1.9rem;
+                    line-height: 2rem;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    line-height: 1.6rem;
+                    margin-bottom: 0px;
+                }
+
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                &.bottom-info {
+
+                    display:flex;
+                    justify-content: start;
+                    flex-direction: row;
+                    min-height: 30vh;
+                    padding-bottom: 50px;
+                    align-items: flex-end;
+
+                    p {
+                        font-size: 1rem;
+                        color: white;
+                        margin-bottom: 0px;    
+                        padding: 0px 0px 0px 15px;
+                    }
+                }
+
+            }
+
+            .bottom-inner{
+                display:flex;
+                justify-content: start;
+                align-items: center;
+                width: 100%;
+
+                .bottom-social{
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+            }
+
+            
+
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 0;
+                background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.04) 60%, rgba(0,0,0,1) 100%);
+                mix-blend-mode: normal;
+                opacity: 1;
+                -webkit-transition: opacity 2s ease-out;
+                -moz-transition: opacity 2s ease-out;
+                -o-transition: opacity 2s ease-out;
+                transition: opacity 2s ease-out;
+            }
+
+        }
+    }
+}
+
+
+
+// QUERIES
+
+// 0
+@media screen and (min-width: 0px) {
+    
+    #logo-horizontal {
+        display: none;
+    }
+    
+    .bottom-social{
+        display:none;
+    }
+
+}
+
+// Mobile devices
+@media screen and (min-width: 320px) {
+
+
+}
+
+// Large mobiles and Tablets
+@media screen and (min-width: 768px) {  
+
+    #logo-mobile {
+        display: none;
+    }
+
+    #logo-horizontal {
+        display: block;
+    }
+
+    #hero-text-mobile{
+        display:none;
+    }
+
+    #hero-text-desktop{
+        display:block;
+    }
+
+    .bottom-social{
+        display:flex;
+    }
+
+    main {
+        section {
+
+            &.banner {
+
+                .container {
+
+                    h1 {
+                        font-size: 3.5rem;
+                        margin-bottom: 0px;
+                        line-height:3.6rem ;
+                    }
+    
+                    p {
+                        font-size: 1.2rem;
+                        line-height: 1.4;
+                        margin-bottom:25px;
+                    }
+                    
+                    h3 {
+                        font-size: 36px;
+                        font-weight: 400;
+                        margin-bottom: 30px;
+                    }
+
+                }
+
+                .bottom-info {
+                    p {
+                        margin-bottom: 0px;
+                    }
+                }
+    
+            }
+        }
+    }
+}
+

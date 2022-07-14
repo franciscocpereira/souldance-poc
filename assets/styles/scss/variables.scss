@@ -1,0 +1,180 @@
+
+// VARIABLES
+
+// HMMM this isnt right
+--color-bg: #242424;
+--color-text: #d4d4d4;
+
+// CORPORATE COLORS
+
+$primary-color: #836BD1; 
+$secondary-color: #FF295C;
+$tertiary-color: #FF9C29;
+
+// COLORS BY NAME
+
+$black: #000000;
+$white: #ffffff;
+$purple: #836BD1; 
+$light-purple: #E2DCF9;
+$pink: #FF295C;
+$light-pink: #FFEBF3;
+$yellow: #FF9C29;
+$light-yellow: #F8F4E8;
+
+$salsa: #4BCD4A;
+$bachata: #FDA219; 
+$ballet: #FE94B9; 
+$contemporaneo: #997FFF; 
+$high-heels: #DF1552; 
+$kizomba: #A72901;
+$latinas: #DD664D;
+$latinas-kids: #FF630C; 
+$pop-dance: #55ADFF; 
+
+.bachata{color:$bachata}
+.ballet{color:$ballet}
+.contemporaneo{color:$contemporaneo}
+.high-heels{color:$high-heels}
+.kizomba{color:$kizomba}
+.latinas{color:$latinas}
+.latinas-kids{color:$latinas-kids}
+.pop-dance{color:$pop-dance}
+.salsa{color:$salsa}
+
+
+// MIXINS
+
+//Grid
+
+@mixin grid-general-purpose($grid-template-columns, $grid-template-rows, $gap, $padding) {
+    display:grid;
+    grid-template-columns: $grid-template-columns;
+    grid-template-rows: $grid-template-rows;
+    gap: $gap;
+    padding: $padding;
+}
+
+//Button @include button-general-purpose($purple, $purple, $purple, $purple);
+
+@mixin button-general-purpose ($button-background-color, $button-border, $hover-border-color, $hover-color){
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    background: $button-background-color;
+    border: 2px solid $button-border;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 1em;
+    font-family: 'Basier Square';
+    letter-spacing: 0.02em;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+
+    &:hover {
+        font-weight: 500;
+        background: transparent;
+        border: 2px solid $hover-border-color;
+        color:$button-background-color;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out; 
+    }
+
+}
+
+@mixin button-general-purpose-small ($button-background-color, $button-border, $hover-border-color, $hover-color){
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    background: $button-background-color;
+    border: 2px solid $button-border;
+    border-radius: 7px;
+    font-weight: 300;
+    font-size: 0.9rem;
+    font-family: 'Basier Square';
+    letter-spacing: 0.02em;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+
+    &:hover {
+        background: transparent;
+        border: 2px solid $hover-border-color;
+        color:$button-background-color;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out; 
+    }
+
+}
+
+@mixin button-general-purpose-small-disabled ($button-background-color, $button-border, $hover-border-color, $hover-color){
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    background: $button-background-color;
+    border: 2px solid $button-border;
+    border-radius: 7px;
+    font-weight: 300;
+    font-size: 0.9rem;
+    font-family: 'Basier Square';
+    letter-spacing: 0.02em;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    opacity: 0.2;
+
+    &:hover {
+        opacity: 1;
+        background: transparent;
+        border: 2px solid $hover-border-color;
+        color:$button-background-color;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out; 
+    }
+
+}
+
+//Price box
+
+@mixin price-box ($box-border) {
+    border: 2px solid $box-border;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@mixin add-price-list ($fill-color) {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    transform: rotate(45deg);
+
+    path {   
+        fill:$fill-color;
+    }
+}
+

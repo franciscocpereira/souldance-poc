@@ -1,0 +1,201 @@
+@import 'variables.scss';
+
+body {
+    background-color: $light-pink;
+    overflow-x: hidden;
+}
+
+section {
+    background: none;
+}
+
+
+header .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:black;
+}
+
+
+.about-us {
+    display: grid;
+    align-items:center;
+    padding: 0px;
+    padding-top: 160px;
+
+    h2 {
+        text-align: left;
+    }
+
+    h6 {
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .subgrid-2 {
+        @include grid-general-purpose(repeat(2, 1fr), 1fr, 20px, unset);
+    }
+
+    .subgrid {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .subgrid-6 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        justify-content: center;
+        grid-template-areas: ". about-us-img about-us-img about-us-img about-us-img . ";
+    }
+
+    .subgrid-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .register-links {
+        padding-top: 40px;
+        padding-bottom:60px;
+
+        .section-mobile-a{
+            font-weight: 600;
+            padding:30px;
+        }
+
+        .line-link {
+            text-decoration: none;
+            text-transform: none;
+            font-size:0.9rem;
+            padding-bottom: 15px;
+            color: $black;
+        }
+    }
+}
+
+.professors{
+
+    .subgrid-2{
+        h5 {
+            padding: 0px 0px 5px 0px;        
+        }
+    }
+    
+}
+
+.about-us-img {
+    width: 100%;
+    grid-area: about-us-img;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.founder {
+    max-width: 440px;
+    padding: 0px 40px 40px 40px;
+}
+
+.founder-img {
+    padding: 30px;
+    max-width: 440px;
+}
+
+.professor-img {
+    margin: 20px 0px 20px 0px;
+    border-radius: 7px;
+}
+
+#founder-name {
+    padding: 5px 0px 5px 0px;
+}
+
+#founder-title {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: $purple;
+    padding: 0px 0px 10px 0px;
+}
+
+#founder-description {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+input[type=text] {
+    background: none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+
+    .about-us {
+
+        .founder {
+            max-width: 80%;
+            margin: 0 auto;
+
+            p {
+                max-width: 90%;
+            }
+        }
+
+        .founder-img {
+            margin: 0 auto;
+        }
+    }
+
+    .container-section {
+        padding: 30px 30px;
+    }
+} 
+
+
+@media screen and (min-width: 1024px) {
+
+    .about-us {
+        padding-top: 80px;
+        height: 100vh;
+    }
+
+    .container-section {
+        padding: 50px 50px;
+    }
+
+    .subgrid-4 {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .founder-img {
+        padding-top: 0px;
+    } 
+
+    .about-us-text{
+        max-width: 70%;
+    }
+    
+} 
+
+
+@media screen and (min-width: 1440px) {
+
+
+} 
+
+@media screen and (min-width: 1920px) {
+
+    .container-section {
+        max-width: 1600px;
+    }
+} 

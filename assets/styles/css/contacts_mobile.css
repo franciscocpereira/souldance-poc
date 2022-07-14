@@ -1,0 +1,333 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 3, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+body {
+  background-color: white;
+}
+
+/* line 7, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+section {
+  background: white;
+}
+
+/* line 10, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+section p {
+  padding-bottom: 0;
+}
+
+/* line 15, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+header .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: black;
+}
+
+/* line 21, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.container-grid {
+  background-color: white;
+}
+
+/* line 25, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.grid-2 {
+  padding: unset;
+  gap: unset;
+}
+
+/* line 30, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.align-items {
+  align-items: center;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts {
+  align-items: center;
+  padding-top: 100px;
+  background-color: #FFEBF3;
+}
+
+/* line 40, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts h2 {
+  text-align: left;
+}
+
+/* line 44, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts h3 {
+  text-transform: none;
+}
+
+/* line 48, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 53, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts p {
+  text-align: left;
+}
+
+/* line 58, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .container-primary {
+  padding: 70px 30px 50px 30px;
+}
+
+/* line 62, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .grid-1 {
+  gap: 20px;
+}
+
+/* line 66, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 70, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .subgrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto 1fr;
+}
+
+/* line 76, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .subgrid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+
+/* line 83, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .subgrid-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 89, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* line 93, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+/* line 98, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+/* line 108, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.school {
+  background-color: #E2DCF9;
+}
+
+/* line 112, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.school .content {
+  display: grid;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* line 117, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.school .content .subgrid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto 1fr;
+}
+
+/* line 123, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.school .content .section-mobile-a {
+  justify-content: flex-start;
+  margin-top: 10px;
+  color: #836BD1;
+}
+
+/* line 129, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.school .content .section-mobile-a svg path {
+  fill: #836BD1;
+}
+
+/* line 137, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.school .content .school-description p {
+  padding: 0px;
+}
+
+/* line 143, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.school h2 {
+  padding-bottom: 40px;
+}
+
+/* line 149, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.school-img {
+  width: 100%;
+}
+
+/* line 153, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 55%;
+  gap: 20px;
+  align-items: center;
+}
+
+/* line 160, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+/* line 166, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contact-form-box {
+  padding: 50px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.1);
+  top: 75px;
+  position: relative;
+}
+
+/* line 174, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contact-form-box .contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+/* line 180, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contact-form-box .contact-form .subgrid {
+  grid-template-columns: unset;
+  gap: 10px;
+}
+
+/* line 184, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contact-form-box .contact-form .subgrid textarea {
+  height: 100px;
+}
+
+/* line 195, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts-display h2 {
+  padding-bottom: 40px;
+}
+
+/* line 199, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+.contacts-display p {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 480px) {
+  /* line 210, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .about-us p {
+    max-width: 80%;
+  }
+  /* line 214, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .about-us .founder {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  /* line 218, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .about-us .founder p {
+    max-width: 90%;
+  }
+  /* line 223, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .about-us .founder-img {
+    margin: 0 auto;
+  }
+  /* line 228, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .container-section {
+    padding: 50px 70px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* line 237, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .school {
+    background-position: 52vw -2rem;
+    background-size: 800px;
+  }
+  /* line 242, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .grid-3 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 250, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* line 254, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .school {
+    background-position: 63vw -2rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* line 262, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .container-section {
+    max-width: 1600px;
+  }
+  /* line 266, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/contacts_mobile.scss */
+  .school {
+    background-size: 42%;
+    background-position: 67vw -2rem;
+  }
+}
+
+/*# sourceMappingURL=contacts_mobile.css.map */

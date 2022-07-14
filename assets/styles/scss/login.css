@@ -1,0 +1,79 @@
+.login-container {
+  display: block;
+}
+
+.modal {
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 9999;
+  /* Sit on top */
+  padding: 250px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: none;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modal .modal-body {
+  padding: 50px;
+  background-color: #E2DCF9;
+  border-radius: 15px;
+}
+
+.modal .modal-body .modal-close {
+  padding-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.modal .modal-body .modal-close a {
+  cursor: pointer;
+}
+
+.modal .modal-body .modal-close a:hover {
+  opacity: 0.6;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+.modal .modal-body .modal-title {
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.reveal-modal {
+  display: block;
+}
+
+.close-modal {
+  display: none;
+}
+
+input[type=text] {
+  background: none;
+}
+/*# sourceMappingURL=login.css.map */

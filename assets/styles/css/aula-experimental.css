@@ -1,0 +1,311 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 5, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+#branding-quote-1 {
+  position: absolute;
+  top: -40px;
+  left: -60px;
+}
+
+/* line 11, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+#branding-quote-2 {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 100px;
+  left: 330px;
+}
+
+/* line 18, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental {
+  background: #ffffff;
+}
+
+/* line 21, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental h2 {
+  padding-bottom: 40px;
+}
+
+/* line 25, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-desktop {
+  display: none;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-desktop .grid-6 {
+  grid-template-areas: "aula-experimental-container aula-experimental-container aula-experimental-container . comment-section comment-section";
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-desktop h2 {
+  padding-bottom: 40px;
+}
+
+/* line 42, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-desktop h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 52, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-5-item-2 input {
+  display: block;
+  color: black;
+  margin: 0;
+  border: 2px solid black;
+  box-shadow: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* line 66, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-container {
+  grid-area: aula-experimental-container;
+}
+
+/* line 72, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.comment-section {
+  grid-area: comment-section;
+  align-self: center;
+  position: relative;
+}
+
+/* line 78, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.comment-p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+/* line 84, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.comment-owner {
+  text-transform: uppercase;
+  color: #836BD1;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: -0.002em;
+  margin-top: 20px;
+}
+
+/* line 95, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* line 102, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form h6 {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+/* line 109, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+::placeholder {
+  font-family: 'Basier Circle';
+  opacity: 0.3;
+  font-weight: 300;
+}
+
+/* - Rows - */
+/* - Row 1 - */
+/* line 119, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* line 124, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-1 .aula-experimental-form-row-1-item-1 {
+  width: 100%;
+}
+
+/* line 128, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-1 .aula-experimental-form-row-1-item-2 {
+  width: 220px;
+}
+
+/* - Row 2 - */
+/* line 135, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "modal modal modal tlm tlm";
+  gap: 20px;
+}
+
+/* line 141, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-2 .aula-experimental-form-row-2-item-1 {
+  grid-area: modal;
+}
+
+/* line 145, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-2 .aula-experimental-form-row-2-item-2 {
+  grid-area: tlm;
+}
+
+/* - Row 3 - */
+/* line 152, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-3 {
+  display: grid;
+}
+
+/* line 155, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-3 .aula-experimental-form-row-3-item-1 {
+  width: 100%;
+}
+
+/* - Row 4 - */
+/* line 162, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-4 {
+  display: grid;
+}
+
+/* line 165, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-4 .aula-experimental-form-row-4-item-1 {
+  width: 100%;
+}
+
+/* - Row 5 - */
+/* line 172, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-5 {
+  display: grid;
+}
+
+/* line 175, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-5 section p {
+  font-size: 0.8rem;
+  padding-bottom: 0px !important;
+}
+
+/* line 180, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-5 .aula-experimental-form-row-5-item-1 {
+  width: 100%;
+}
+
+/* line 184, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-5 .aula-experimental-form-row-5-item-2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+
+/* - Row 6 - */
+/* line 194, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+/* line 199, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-6 .section-link {
+  padding-top: 40px;
+}
+
+/* line 202, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+.aula-experimental-form-row-6 .section-link .button {
+  background-color: #836BD1;
+}
+
+/* - Row 7 - */
+@media screen and (min-width: 1024px) {
+  /* line 219, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-desktop {
+    display: unset;
+  }
+  /* line 223, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental {
+    display: none;
+  }
+  /* line 227, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-form-row-1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* line 231, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-form-row-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* line 235, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-form-row-4 {
+    width: 155px;
+  }
+  /* line 239, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-form-row-2,
+  .aula-experimental-form-row-3,
+  .aula-experimental-form-row-4 {
+    margin-top: 0 !important;
+  }
+  /* line 247, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-form-row-1-item-1 {
+    padding-right: 0px;
+  }
+  /* line 250, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-form-row-1-item-2 {
+    margin-right: 0;
+    width: 240px;
+  }
+  /* line 254, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-form-row-2-item-1 {
+    grid-area: modal;
+  }
+  /* line 259, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/aula-experimental.scss */
+  .aula-experimental-form-row-5 .aula-experimental-form-row-5-item-2 {
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=aula-experimental.css.map */

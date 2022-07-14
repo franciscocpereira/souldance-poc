@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Souldance PoC</title>
+        
+        <!-- Sass -->
+        <link rel="stylesheet" href="/assets/styles/css/fonts.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/styles.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/animations.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/header-navigation.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/register-mobile.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/pricing.css" type="text/css" charset="utf-8">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/souldance_logo_icon_positive.svg"/>
+        <link rel="icon" type="image/png" href="https://code-server.kuji.pt/assets/media/souldance_logo_icon_positive.svg"/>
+
+	</head>
+	<body>
+        <div id="app">
+        <header-navigation></header-navigation>
+        <main>
+            <section class="pricing">
+                <div class="">
+                    <div>
+                        <div class="grid-1">
+                            <div class="">
+                                <h2 class="section-h2">Preçário</h2>
+                                <p>Começa com o passo certo. <br>
+                                    Escolhe uma modalidade de dança a teu gosto.
+                                </p>
+                            </div>
+                
+                            <h6>Promoções</h6>
+                            <div class="subgrid-2">
+                                <div class="subgrid">
+                                    
+                                    <div id="promo" class="promo-box">
+                                        <h5>Salsa</h5>
+                                        <p class="promo-disclaimer">Promoção para adesões à modalidade até dia 20/07/21.</p>
+                                        <span class="price-strike">32.90€</span>
+                                        <span class="price">€24.90/mês</span>
+                                        <span class="add-price-list">
+                                            <svg width="10" height="10" viewBox="0 0 12 12" fill="$salsa" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41413 6L11.7071 1.707C12.0981 1.316 12.0981 0.684 11.7071 0.293C11.3161 -0.0979999 10.6841 -0.0979999 10.2931 0.293L6.00013 4.586L1.70713 0.293C1.31613 -0.0979999 0.684128 -0.0979999 0.293128 0.293C-0.0978721 0.684 -0.0978721 1.316 0.293128 1.707L4.58613 6L0.293128 10.293C-0.0978721 10.684 -0.0978721 11.316 0.293128 11.707C0.488128 11.902 0.744128 12 1.00013 12C1.25613 12 1.51213 11.902 1.70713 11.707L6.00013 7.414L10.2931 11.707C10.4881 11.902 10.7441 12 11.0001 12C11.2561 12 11.5121 11.902 11.7071 11.707C12.0981 11.316 12.0981 10.684 11.7071 10.293L7.41413 6Z" fill="$salsa"/>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h6>Modalidades individuais</h6>
+
+                            <pricing-box></pricing-box>
+                            
+                            <div class="price-calculator">
+                                <h6>Items</h6>
+
+                                <div class="price-calculator-list">
+                                    <div class="price-calculator-list-item-promo">
+                                        <span class="promo-tag">Promo</span>
+                                        <h6>Salsa</h6>
+                                        <span class="price-strike">€32.90</span>
+                                        <span class="price">€24.90</span>
+                                        <span class="remove-item">
+                                            <svg width="10" height="10" viewBox="0 0 12 12" fill="$salsa" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41413 6L11.7071 1.707C12.0981 1.316 12.0981 0.684 11.7071 0.293C11.3161 -0.0979999 10.6841 -0.0979999 10.2931 0.293L6.00013 4.586L1.70713 0.293C1.31613 -0.0979999 0.684128 -0.0979999 0.293128 0.293C-0.0978721 0.684 -0.0978721 1.316 0.293128 1.707L4.58613 6L0.293128 10.293C-0.0978721 10.684 -0.0978721 11.316 0.293128 11.707C0.488128 11.902 0.744128 12 1.00013 12C1.25613 12 1.51213 11.902 1.70713 11.707L6.00013 7.414L10.2931 11.707C10.4881 11.902 10.7441 12 11.0001 12C11.2561 12 11.5121 11.902 11.7071 11.707C12.0981 11.316 12.0981 10.684 11.7071 10.293L7.41413 6Z" fill="black"/>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="price-calculator-list-item">
+                                        <h6>Salsa</h6>
+                                        <span class="price">€32.90</span>
+                                        <span class="remove-item">
+                                            <svg width="10" height="10" viewBox="0 0 12 12" fill="$salsa" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41413 6L11.7071 1.707C12.0981 1.316 12.0981 0.684 11.7071 0.293C11.3161 -0.0979999 10.6841 -0.0979999 10.2931 0.293L6.00013 4.586L1.70713 0.293C1.31613 -0.0979999 0.684128 -0.0979999 0.293128 0.293C-0.0978721 0.684 -0.0978721 1.316 0.293128 1.707L4.58613 6L0.293128 10.293C-0.0978721 10.684 -0.0978721 11.316 0.293128 11.707C0.488128 11.902 0.744128 12 1.00013 12C1.25613 12 1.51213 11.902 1.70713 11.707L6.00013 7.414L10.2931 11.707C10.4881 11.902 10.7441 12 11.0001 12C11.2561 12 11.5121 11.902 11.7071 11.707C12.0981 11.316 12.0981 10.684 11.7071 10.293L7.41413 6Z" fill="black"/>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <h6>Total</h6>
+                                <br>
+                                <hr>
+                                <div class="price-result">
+                                    <span class="price">€57.80</span>
+                                </div>
+
+                                <div class="section-link">
+                                    <a class="button-purple" href="">Continuar</a>
+                                </div>
+                            </div>
+
+                            
+                            
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <bottom-navigation>
+            </bottom-navigation>    
+        </main>
+    
+        </div>
+
+        <!-- JS -->
+        <script src="/assets/scripts/main.js"></script>
+
+        <!-- Vue Development -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+        <!-- Vue Production -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+
+        <!-- Axios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+
+        <!-- Components -->
+        <script src="assets/scripts/components/accordion.js"></script>
+        <script src="assets/scripts/components/pricing-list.js"></script>
+        <script src="assets/scripts/components/price-box.js"></script>
+		<script src="assets/scripts/components/header-navigation.js"></script>
+        <script src="assets/scripts/components/aula-experimental.js"></script>
+		<script src="assets/scripts/components/bottom-promotion.js"></script>
+        <script src="assets/scripts/components/bottom-navigation.js"></script>
+
+        <!-- App -->
+		<script src="assets/scripts/index.js"></script>
+
+	</body>
+</html>

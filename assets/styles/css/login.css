@@ -1,0 +1,155 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 5, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+h6 {
+  font-weight: 300;
+}
+
+/* line 9, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal-container {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 9999999;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+/* line 20, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  padding: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+/* line 30, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body {
+  padding: 50px;
+  background-color: #E2DCF9;
+  border-radius: 15px;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body .grid-1 {
+  gap: 20px;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body .grid-1 .subgrid {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* line 43, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body .grid-1 .section-link {
+  padding-top: 20px;
+}
+
+/* line 46, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body .grid-1 .section-link .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.8rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+/* line 56, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body .modal-close {
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 61, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body .modal-close a {
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* line 65, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body .modal-close a:hover {
+  opacity: 0.6;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+/* line 74, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal .modal-body .modal-title {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 83, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.modal-header {
+  text-align: center;
+}
+
+/* line 87, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.reveal-modal {
+  display: block;
+}
+
+/* line 91, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+.close-modal {
+  display: none;
+}
+
+/* line 95, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/login.scss */
+input[type=text] {
+  background: none;
+}
+
+/*# sourceMappingURL=login.css.map */

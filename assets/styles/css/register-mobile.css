@@ -1,0 +1,135 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 4, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+body {
+  background-color: #E2DCF9;
+}
+
+/* line 8, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+section {
+  background: none;
+}
+
+/* line 13, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  padding: 30px;
+}
+
+/* line 19, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register h2 {
+  text-align: center;
+  padding: 120px 0px 15px;
+}
+
+/* line 24, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 29, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register p {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register .grid-1 {
+  gap: 20px;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register .subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 42, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register .subgrid {
+  display: grid;
+  gap: 10px;
+}
+
+/* line 47, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register .subgrid-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 53, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* line 57, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+/* line 62, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+.register .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+/* line 73, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/register-mobile.scss */
+input[type=text] {
+  background: none;
+}
+
+/*# sourceMappingURL=register-mobile.css.map */

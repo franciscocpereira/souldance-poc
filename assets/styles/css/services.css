@@ -1,0 +1,641 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 6, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+section p {
+  padding-bottom: 0px;
+}
+
+/* line 11, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.grid-1 {
+  gap: 20px;
+}
+
+/* line 15, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 19, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.subgrid-2-auto {
+  display: grid;
+  grid-template-columns: auto 100px;
+  grid-template-rows: 1fr;
+  gap: 15px;
+  padding: unset;
+  align-items: center;
+  border-radius: 20px;
+}
+
+/* line 25, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.subgrid {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.hero-copy {
+  max-width: 310px;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  text-transform: unset;
+}
+
+/* line 42, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops {
+  display: grid;
+  align-items: center;
+  background-color: #E2DCF9;
+}
+
+/* line 47, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops h2 {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+/* line 52, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops h6 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+  color: #836BD1;
+}
+
+/* line 59, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops p {
+  text-align: left;
+}
+
+/* line 63, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .title-section {
+  padding-bottom: 0px;
+}
+
+/* line 67, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .workshops-content {
+  max-width: 900px;
+}
+
+/* line 71, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .workshops-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px 0px 20px 0px;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+/* line 78, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .workshops-card .workshops-img {
+  border-radius: 7px;
+  height: 120px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 87, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .workshops-card .workshops-content-overlay {
+  background: linear-gradient(40deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.6) 100%);
+  border-radius: inherit;
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 94, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .workshops-card .top-right {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Basier Circle';
+  color: white;
+  top: 0;
+  right: 9%;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  padding: 10px 12px 12px 12px;
+  border-radius: 0px 0px 7px 7px;
+  background: #673ab7;
+  position: absolute;
+}
+
+/* line 111, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .workshops-card .top-right span {
+  font-size: 0.5rem;
+  font-weight: 300;
+}
+
+/* line 117, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .workshops-card .article-header {
+  padding: 15px 0px 6px 0px;
+  margin-bottom: 0px;
+}
+
+/* line 122, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .workshops-card:hover {
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+  transition: all 300ms ease-in;
+}
+
+/* line 129, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.workshops .section-link-drop {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+/* line 143, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events {
+  display: grid;
+  align-items: center;
+  background-color: #FFEBF3;
+}
+
+/* line 148, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events h2 {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+/* line 153, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events h6 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+  color: #836BD1;
+}
+
+/* line 160, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events p {
+  text-align: left;
+}
+
+/* line 164, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .subgrid-2 {
+  grid-template-columns: 1fr;
+}
+
+/* line 167, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .subgrid-2 :nth-child(2) {
+  display: none;
+}
+
+/* line 172, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .events-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px 0px 20px 0px;
+  gap: 10px;
+}
+
+/* line 178, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .events-card .events-img {
+  border-radius: 7px;
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 187, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .events-card .events-img-description {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #836BD1;
+  display: block !important;
+  margin-bottom: 8px;
+}
+
+/* line 195, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .events-card .events-content-overlay {
+  background: linear-gradient(40deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.6) 100%);
+  border-radius: inherit;
+  min-height: 100%;
+}
+
+/* line 201, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .events-card .top-right {
+  text-align: right;
+  font-family: 'Basier Circle';
+  color: white;
+  padding-top: 6%;
+  padding-right: 9%;
+  font-size: 1rem;
+}
+
+/* line 210, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .events-card .article-header {
+  margin-bottom: 0px;
+}
+
+/* line 215, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.events .section-link-drop {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.9em;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding-top: 20px;
+}
+
+/* line 227, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings {
+  display: grid;
+  align-items: center;
+  background-color: white;
+}
+
+/* line 232, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings h2 {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+/* line 237, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings h6 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+  color: #836BD1;
+}
+
+/* line 244, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings p {
+  text-align: left;
+}
+
+/* line 248, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings .events-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px 0px 20px 0px;
+}
+
+/* line 253, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings .events-card .events-img {
+  border-radius: 7px;
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 10% center;
+  background-size: cover;
+}
+
+/* line 262, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings .events-card .events-img-description {
+  margin: 20px 0px 10px 0px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #836BD1;
+}
+
+/* line 269, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings .events-card .events-content-overlay {
+  background: linear-gradient(40deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.6) 100%);
+  border-radius: inherit;
+  min-height: 100%;
+}
+
+/* line 275, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings .events-card .top-right {
+  text-align: right;
+  font-family: 'Basier Circle';
+  color: white;
+  padding-top: 6%;
+  padding-right: 9%;
+  font-size: 1rem;
+}
+
+/* line 284, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings .events-card .article-header {
+  margin-bottom: 0px;
+}
+
+/* line 289, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.weddings .section-link-drop {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.9em;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding-top: 20px;
+}
+
+/* line 301, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form {
+  display: grid;
+  align-items: center;
+  padding: 30px;
+  background-color: #E2DCF9;
+}
+
+/* line 307, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 312, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form .subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 316, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form .subgrid {
+  display: grid;
+  gap: 10px;
+  justify-content: unset;
+}
+
+/* line 322, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form .subgrid-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 328, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form .people {
+  background-image: url(https://code-server.kuji.pt/assets/media/icons/person.svg);
+  background-repeat: no-repeat;
+  background-position: 60px 12px;
+}
+
+/* line 334, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form .section-link {
+  padding: 30px 0px 30px 0px;
+}
+
+/* line 339, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form-desktop {
+  display: none;
+  align-items: center;
+  padding: 30px;
+  background-color: #E2DCF9;
+}
+
+/* line 345, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form-desktop h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 350, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form-desktop .grid-2 {
+  padding: unset;
+}
+
+/* line 354, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form-desktop .subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 358, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form-desktop .subgrid {
+  display: grid;
+  gap: 10px;
+  justify-content: unset;
+}
+
+/* line 364, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form-desktop .subgrid-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 370, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form-desktop .people {
+  background-image: url(https://code-server.kuji.pt/assets/media/icons/person.svg);
+  background-repeat: no-repeat;
+  background-position: 60px 12px;
+}
+
+/* line 376, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+.contact-form-desktop .section-link {
+  padding: 30px 0px 30px 0px;
+}
+
+/* line 381, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+input[type=text] {
+  background: none;
+}
+
+@media screen and (min-width: 480px) {
+  /* line 391, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .about-us p {
+    max-width: 80%;
+  }
+  /* line 395, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .about-us .founder {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  /* line 399, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .about-us .founder p {
+    max-width: 90%;
+  }
+  /* line 404, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .about-us .founder-img {
+    margin: 0 auto;
+  }
+  /* line 411, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .workshops-card .workshops-img {
+    height: 170px;
+  }
+  /* line 415, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .workshops-card .top-right {
+    font-size: 1.2rem;
+  }
+  /* line 417, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .workshops-card .top-right span {
+    font-size: 0.6rem;
+  }
+  /* line 426, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .events .events-card .events-img {
+    height: 320px;
+  }
+  /* line 434, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .weddings .events-card .events-img {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 445, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops, .events, .weddings {
+    padding: 70px 100px;
+  }
+  /* line 448, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops h2, .events h2, .weddings h2 {
+    text-align: center;
+    font-size: revert;
+  }
+  /* line 453, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .hero-copy, .events .hero-copy, .weddings .hero-copy {
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  /* line 459, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .title-section, .events .title-section, .weddings .title-section {
+    padding-bottom: 40px;
+  }
+  /* line 463, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .section-link-drop, .events .section-link-drop, .weddings .section-link-drop {
+    justify-content: center;
+    padding-top: 40px;
+  }
+  /* line 469, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .workshops-card .workshops-img, .events .workshops-card .workshops-img, .weddings .workshops-card .workshops-img {
+    height: 210px;
+  }
+  /* line 473, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .workshops-card .top-right, .events .workshops-card .top-right, .weddings .workshops-card .top-right {
+    font-size: 1.4rem;
+  }
+  /* line 475, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .workshops-card .top-right span, .events .workshops-card .top-right span, .weddings .workshops-card .top-right span {
+    font-size: 0.8rem;
+  }
+  /* line 482, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .contact-form {
+    padding: 70px 100px;
+  }
+  /* line 487, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .events .events-card {
+    max-width: 550px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  /* line 492, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .events .events-card:hover {
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    transition: all 300ms ease-in;
+  }
+  /* line 502, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .weddings .events-card .events-img {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 513, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .workshops-card .workshops-img {
+    height: 310px;
+  }
+  /* line 521, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .weddings .events-card .article-header {
+    text-align: center;
+  }
+  /* line 525, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .weddings .events-card .events-img-description {
+    margin: 40px 0px 10px 0px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  /* line 531, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .weddings .events-card .workshop-description, .weddings .events-card .weddings p {
+    text-align: center;
+  }
+  /* line 537, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .contact-form {
+    display: none;
+  }
+  /* line 541, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .contact-form-desktop {
+    display: grid;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* line 552, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .workshops .workshops-card {
+    padding: 20px;
+  }
+  /* line 559, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .events .container-primary .subgrid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* line 562, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/services.scss */
+  .events .container-primary .subgrid-2 :nth-child(2) {
+    display: grid;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

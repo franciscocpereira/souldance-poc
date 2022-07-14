@@ -1,0 +1,199 @@
+header {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+header .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .container nav {
+  display: none;
+  -ms-grid-columns: auto [7];
+  grid-template-columns: repeat(7, auto);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container nav a {
+  color: inherit;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 300 !important;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer !important;
+  pointer-events: auto;
+}
+
+header .container nav a:hover {
+  opacity: 0.6;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+header .container nav a.button-negative {
+  opacity: 1;
+}
+
+header .container h2 {
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+header .container h2 span {
+  font-weight: 600;
+}
+
+header .container .hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+header .container .hamburger .bar, header .container .hamburger:after, header .container .hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  margin: 7px 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header .container .hamburger.is-active:before {
+  -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+header .container .hamburger.is-active:after {
+  -webkit-transform: rotate(45deg) translate(-9px, -8px);
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+header .container .hamburger.is-active .bar {
+  opacity: 0;
+}
+
+header.is-scrolling {
+  background-color: black;
+  -webkit-transition: ease-in-out 500ms;
+  transition: ease-in-out 500ms;
+}
+
+header.is-scrolling .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-transition: ease-in-out 500ms;
+  transition: ease-in-out 500ms;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 98;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+}
+
+.mobile-nav .top {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.mobile-nav .top a {
+  display: block;
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.01rem;
+  padding: 12px 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mobile-nav .bottom {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+.mobile-nav .bottom a {
+  display: block;
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding: 12px 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1024px) {
+  nav.mobile-nav {
+    display: none;
+  }
+  header .container .hamburger {
+    display: none;
+  }
+  header .container {
+    padding-top: 60px;
+  }
+  header .container nav {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+/*# sourceMappingURL=header-navigation.css.map */

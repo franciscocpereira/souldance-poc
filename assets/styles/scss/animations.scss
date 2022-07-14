@@ -1,0 +1,67 @@
+@import 'variables.scss';
+
+@keyframes slideInFromTop {
+    0%{
+        transform: translateY(-20%);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop2 {
+    0% {
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
+
+ @keyframes slideInFromTop3{
+    0% {
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+
+    40% {
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Header */ 
+
+#logo-horizontal, nav{
+    animation: slideInFromTop 600ms ease-in-out;
+}
+
+
+#hero-headline, #hero-text-desktop{
+    animation: slideInFromTop2 1000ms ease-in-out;
+}
+
+#dash1, #hero-signature, .bottom-social {
+    animation: slideInFromTop3 800ms ease-in-out;
+} 
+
+/* buttons */ 
+
+
+.icon-small{
+    transition: 0.3s ease-in-out;
+}
+
+.section-mobile-a:hover .icon-small{
+    margin-left:14px;
+}

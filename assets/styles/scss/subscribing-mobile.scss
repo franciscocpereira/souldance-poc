@@ -1,0 +1,88 @@
+
+@import 'variables.scss';
+
+body {
+    background-color: $light-purple;
+}
+
+section {
+    background: none;
+}
+
+
+.subscribing {
+    height: 100vh;
+    display: grid;
+    align-items:center;
+    padding: 30px;
+
+    h2 {
+        text-align: center;
+        padding: 120px 0px 15px;
+    }
+
+    h6 {
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+
+    p {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .grid-1 {
+        gap:20px;
+    }
+
+    .subgrid-2 {
+        @include grid-general-purpose(repeat(2, 1fr), 1fr, 20px, unset);
+
+    }
+
+    .subgrid {
+        display: grid;
+        gap: 10px;
+    }
+
+    .subgrid-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .register-links {
+        padding-top: 40px;
+        padding-bottom:60px;
+
+        .section-mobile-a{
+            font-weight: 600;
+            padding:30px;
+        }
+
+
+        .line-link {
+            text-decoration: none;
+            text-transform: none;
+            font-size:0.9rem;
+            padding-bottom: 15px;
+            color: $black;
+        }
+    }
+}
+
+
+input[type=text] {
+    background: none;
+}
+
+
+
+#Yes,#No {
+    width:unset;
+    padding:unset;
+}
+
+label {
+    padding: 10px 10px 10px 0px;
+}

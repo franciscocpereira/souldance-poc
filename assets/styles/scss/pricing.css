@@ -1,0 +1,256 @@
+body {
+  background-color: #E2DCF9;
+}
+
+section {
+  background: none;
+}
+
+.pricing {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.pricing h2 {
+  text-align: left;
+  padding: 120px 0px 15px;
+}
+
+.pricing h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.pricing p {
+  max-width: 200px;
+  text-align: left;
+}
+
+.pricing .grid-1 {
+  gap: 20px;
+}
+
+.pricing .subgrid-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+.pricing .subgrid {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+.pricing .subgrid-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.pricing .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+.pricing .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+.price-box {
+  border: 2px solid #55ADFF;
+  border-radius: 5px;
+  cursor: pointer;
+  display: -ms-grid;
+  display: grid;
+  gap: 5px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.price-box .add-price-list {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.price-box .add-price-list path {
+  fill: #55ADFF;
+}
+
+.price-box .class-schedule {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding-bottom: 5px;
+}
+
+.promo-box {
+  border: 2px solid #4BCD4A;
+  border-radius: 5px;
+  cursor: pointer;
+  display: -ms-grid;
+  display: grid;
+  gap: 5px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.promo-box .add-price-list {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.promo-box .add-price-list path {
+  fill: #4BCD4A;
+}
+
+.promo-disclaimer {
+  font-size: 0.7rem;
+  font-weight: 100;
+  line-height: 1.5;
+  padding: 5px 0px 5px 0px;
+}
+
+.price-strike {
+  text-decoration: line-through;
+  font-size: 0.7rem;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.price-calculator {
+  padding-top: 20px;
+}
+
+.price-calculator h6 {
+  color: #836BD1;
+}
+
+.price-calculator hr {
+  border: 1px solid black;
+}
+
+.price-calculator .price-result {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.price-calculator .price-result .price {
+  font-size: 1.4rem;
+}
+
+.price-calculator-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr;
+      grid-template-columns: 2fr;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.price-calculator-list h6 {
+  color: black;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.price-calculator-list .promo-tag {
+  border: 1px solid black;
+  font-size: 0.8rem;
+  padding: 3px 6px 3px 6px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.price-calculator-list .price-calculator-list-item-promo {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: auto 1fr auto 15% auto;
+      grid-template-columns: auto 1fr auto 15% auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price-calculator-list .price-calculator-list-item {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: 1fr 15% auto;
+      grid-template-columns: 1fr 15% auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.price-calculator-list .remove-item {
+  border: 1px solid black;
+  font-size: 0.8rem;
+  padding: 3px 6px 3px 6px;
+  border-radius: 3px;
+}
+
+.section-link {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+input[type=text] {
+  background: none;
+}
+/*# sourceMappingURL=pricing.css.map */

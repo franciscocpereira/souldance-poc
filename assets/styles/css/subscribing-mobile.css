@@ -1,0 +1,146 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 4, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+body {
+  background-color: #E2DCF9;
+}
+
+/* line 8, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+section {
+  background: none;
+}
+
+/* line 13, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  padding: 30px;
+}
+
+/* line 19, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing h2 {
+  text-align: center;
+  padding: 120px 0px 15px;
+}
+
+/* line 24, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 29, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing p {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing .grid-1 {
+  gap: 20px;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing .subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 43, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing .subgrid {
+  display: grid;
+  gap: 10px;
+}
+
+/* line 48, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing .subgrid-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 54, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* line 58, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+/* line 64, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+.subscribing .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+/* line 75, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+input[type=text] {
+  background: none;
+}
+
+/* line 81, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+#Yes, #No {
+  width: unset;
+  padding: unset;
+}
+
+/* line 86, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/subscribing-mobile.scss */
+label {
+  padding: 10px 10px 10px 0px;
+}
+
+/*# sourceMappingURL=subscribing-mobile.css.map */

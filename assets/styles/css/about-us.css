@@ -1,0 +1,249 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 3, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+body {
+  background-color: #FFEBF3;
+  overflow-x: hidden;
+}
+
+/* line 8, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+section {
+  background: none;
+}
+
+/* line 13, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+header .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: black;
+}
+
+/* line 20, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us {
+  display: grid;
+  align-items: center;
+  padding: 0px;
+  padding-top: 160px;
+}
+
+/* line 26, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us h2 {
+  text-align: left;
+}
+
+/* line 30, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us p {
+  text-align: left;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us .subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 43, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us .subgrid {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* line 49, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us .subgrid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  justify-content: center;
+  grid-template-areas: ". about-us-img about-us-img about-us-img about-us-img . ";
+}
+
+/* line 57, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us .subgrid-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 63, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* line 67, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+/* line 72, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+/* line 85, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.professors .subgrid-2 h5 {
+  padding: 0px 0px 5px 0px;
+}
+
+/* line 92, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.about-us-img {
+  width: 100%;
+  grid-area: about-us-img;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+/* line 99, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.founder {
+  max-width: 440px;
+  padding: 0px 40px 40px 40px;
+}
+
+/* line 104, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.founder-img {
+  padding: 30px;
+  max-width: 440px;
+}
+
+/* line 109, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+.professor-img {
+  margin: 20px 0px 20px 0px;
+  border-radius: 7px;
+}
+
+/* line 114, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+#founder-name {
+  padding: 5px 0px 5px 0px;
+}
+
+/* line 118, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+#founder-title {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #836BD1;
+  padding: 0px 0px 10px 0px;
+}
+
+/* line 125, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+#founder-description {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+/* line 130, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+input[type=text] {
+  background: none;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 143, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .about-us .founder {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  /* line 147, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .about-us .founder p {
+    max-width: 90%;
+  }
+  /* line 152, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .about-us .founder-img {
+    margin: 0 auto;
+  }
+  /* line 157, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .container-section {
+    padding: 30px 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 165, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .about-us {
+    padding-top: 80px;
+    height: 100vh;
+  }
+  /* line 170, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .container-section {
+    padding: 50px 50px;
+  }
+  /* line 174, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .subgrid-4 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+  }
+  /* line 180, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .founder-img {
+    padding-top: 0px;
+  }
+  /* line 184, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .about-us-text {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* line 198, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/about-us.scss */
+  .container-section {
+    max-width: 1600px;
+  }
+}
+
+/*# sourceMappingURL=about-us.css.map */

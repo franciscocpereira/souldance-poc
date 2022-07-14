@@ -1,0 +1,286 @@
+@import 'variables.scss';
+
+body {
+    background-color: white;
+}
+
+section {
+    background: white;
+
+    p {
+        padding-bottom: 0;
+    }
+}
+
+header .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:black;
+}
+
+.container-grid {
+    background-color:white;
+}
+
+.grid-2 { 
+    padding: unset;
+    gap:unset;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.contacts {
+    align-items:center;
+    padding-top: 100px;
+    background-color: $light-pink;
+
+    h2 {
+        text-align: left;
+    }
+
+    h3 {
+        text-transform: none;
+    }
+
+    h6 {
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .container-section {
+        padding: 0px 70px;
+    }
+
+    .grid-1 {
+        gap:20px;
+    }
+
+    .subgrid-2 {
+        @include grid-general-purpose(repeat(2, 1fr), 1fr, 20px, unset);
+    }
+
+    .subgrid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto 1fr;
+    }
+
+    .subgrid-6 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .subgrid-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .register-links {
+        padding-top: 40px;
+        padding-bottom:60px;
+
+        .section-mobile-a{
+            font-weight: 600;
+            padding:30px;
+        }
+
+        .line-link {
+            text-decoration: none;
+            text-transform: none;
+            font-size:0.9rem;
+            padding-bottom: 15px;
+            color: $black;
+        }
+    }
+}
+
+.school {
+
+    display: grid;
+    align-items:center;
+    background-color: $light-purple;
+    gap: 20px;
+    min-height: 50vh;
+    
+
+    .content {
+        display: grid;
+        gap: 20px;
+
+        .subgrid {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: auto 1fr;
+        }
+
+        .section-mobile-a {
+            justify-content: flex-start;
+            margin-top: 10px;
+            color: $purple;
+
+            svg {
+                path {
+                    fill: $purple;
+                } 
+            }
+        }
+
+        .school-description {
+            
+            & p{
+                padding: 0px;
+            }
+        }
+    }
+
+    h2 {
+        padding-bottom: 40px;
+    }
+    
+}
+
+.school-img {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 55%;
+    gap:20px;
+    align-items: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+
+.contact-form-box {
+    padding: 50px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.1);
+    top: 75px;
+    position: relative;
+    
+    .contact-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 30px;
+    
+        .subgrid {
+            grid-template-columns: unset;
+            gap: 10px;
+    
+            textarea {
+                height: 100px;
+            }
+        } 
+    }
+    
+}
+
+
+.contacts-display{
+
+    h2 {
+        padding-bottom: 40px;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 480px) {
+
+    .about-us {
+
+        p {
+            max-width: 80%;
+        }
+
+        .founder {
+            max-width: 80%;
+            margin: 0 auto;
+
+            p {
+                max-width: 90%;
+            }
+        }
+
+        .founder-img {
+            margin: 0 auto;
+        }
+    }
+
+    .container-section {
+        padding: 50px 70px;
+    }
+
+
+} 
+
+// Laptops and small screens
+@media screen and (min-width: 1024px) {
+    .contacts {
+        .container-section {
+            .grid{
+                grid-template-columns: 1fr 55%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .school {
+        background-position: 52vw -2rem;
+        background-size: 800px;
+        background-image: url('https://code-server.kuji.pt/assets/media/school.png');
+        background-repeat: no-repeat;
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(4, 1fr);
+     }
+    
+}
+
+@media screen and (min-width: 1600px) {
+
+    .grid-3 {
+       grid-template-columns: repeat(3, 1fr);
+    }
+
+    .school {
+        background-position: 63vw -2rem;
+    }
+    
+}
+
+@media screen and (min-width: 1920px) {
+
+    .container-section{
+        max-width: 1600px;
+    }
+
+    .school {
+        background-size: 42%;
+        background-position: 67vw -2rem;
+    }
+
+} 

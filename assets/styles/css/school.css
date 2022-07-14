@@ -1,0 +1,446 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 3, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+section {
+  background: none;
+}
+
+/* line 6, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+section p {
+  padding-bottom: 0px;
+}
+
+/* line 11, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.dot {
+  height: 13px;
+  width: 13px;
+  background-color: unset;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* line 19, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list {
+  background-color: #FFEBF3;
+  padding: 30px;
+}
+
+/* line 23, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* line 28, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list p {
+  text-align: left;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .grid-1 {
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .container-primary {
+  margin: unset;
+  padding: unset;
+}
+
+/* line 42, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+/* line 46, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-2-auto {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr;
+  gap: 15px;
+  padding: unset;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+/* line 54, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-2-item-fixed {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  padding: unset;
+  align-items: baseline;
+}
+
+/* line 58, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-2-item-fixed p, .modalidades-list .subgrid-2-item-fixed span {
+  font-size: 0.8rem;
+}
+
+/* line 63, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-2-item-auto {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  gap: 8px;
+  padding: unset;
+  align-items: center;
+}
+
+/* line 68, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-3-item-auto {
+  display: grid;
+  grid-template-columns: 25px auto 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  padding: unset;
+  align-items: baseline;
+}
+
+/* line 72, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-3-item-auto p, .modalidades-list .subgrid-3-item-auto span {
+  font-size: 0.8rem;
+}
+
+/* line 77, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-2-item-large-auto {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  padding: unset;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+/* line 82, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-2-item-large-auto p, .modalidades-list .subgrid-2-item-large-auto span {
+  font-size: 0.9rem;
+}
+
+/* line 87, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* line 93, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .subgrid-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 99, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .modalidades-img {
+  width: 100px;
+  border-radius: 15px;
+}
+
+/* line 104, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .modalidades-info {
+  border-radius: 15px;
+  padding: 10px 0px 10px 0px;
+}
+
+/* line 109, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .modalidade-img-card {
+  display: grid;
+  border-radius: 17px;
+}
+
+/* line 115, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .modalidade-title {
+  margin-bottom: 8px;
+}
+
+/* line 119, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .accordionInfo {
+  display: none;
+  opacity: 0;
+  transition: all 1s ease-out;
+  margin-top: 15px;
+}
+
+/* line 126, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .accordionInfo.open {
+  display: block;
+  opacity: 1;
+  max-height: 1000px;
+  transition: all 500ms ease-out;
+}
+
+/* line 134, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* line 138, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+/* line 143, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.modalidades-list .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+/* line 153, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+#schedule-desktop {
+  display: none;
+}
+
+/* line 157, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-box {
+  background-color: white;
+  border-radius: 15px;
+}
+
+/* line 163, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-container {
+  padding: 0px;
+}
+
+/* line 166, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-container h2 {
+  padding-bottom: 40px;
+}
+
+/* line 171, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule {
+  display: grid;
+  align-items: center;
+  padding: 30px;
+  gap: 25px;
+}
+
+/* line 177, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule p {
+  font-weight: 300;
+}
+
+/* line 181, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule .subgrid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  gap: unset;
+  padding: unset;
+}
+
+/* line 184, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule .subgrid-6 .white {
+  color: white;
+  font-weight: 300;
+}
+
+/* line 188, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule .subgrid-6 span {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+/* line 193, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule .subgrid-6 p {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+/* line 200, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop {
+  display: grid;
+  align-items: center;
+  padding: 30px;
+  gap: 25px;
+}
+
+/* line 206, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop div {
+  opacity: 1;
+  border-radius: 7px !important;
+}
+
+/* line 212, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop .subgrid-6:nth-child(1) p {
+  text-align: center !important;
+}
+
+/* line 220, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop .subgrid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+  text-transform: uppercase;
+}
+
+/* line 226, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop .subgrid-6 .subgrid {
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid;
+  margin-bottom: 15px;
+  gap: 3px;
+  transition: all 200ms ease-in-out;
+  opacity: 1;
+}
+
+/* line 235, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop .subgrid-6 .subgrid.subgrid-dim {
+  opacity: 0.3;
+}
+
+/* line 240, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop .subgrid-6 .white {
+  color: white;
+  font-weight: 300;
+}
+
+/* line 244, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop .subgrid-6 span {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+/* line 249, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.schedule-desktop .subgrid-6 p:nth-child(1) {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* line 264, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+.workshops .container-section .workshops-desktop .workshops-content-grid-desktop p {
+  padding-bottom: 30px;
+}
+
+/* line 274, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+input[type=text] {
+  background: none;
+}
+
+@media screen and (min-width: 480px) {
+  /* line 281, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .modalidades-list {
+    padding: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 294, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .modalidades-list .container-primary {
+    margin: 0 auto;
+    max-width: unset;
+  }
+  /* line 299, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .modalidades-list .grid-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* line 305, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .schedule-container .container-primary {
+    margin: 0 auto;
+    max-width: unset;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  /* line 316, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .modalidades-list .container-primary {
+    margin: 0 auto;
+    padding: 50px;
+  }
+  /* line 321, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .modalidades-list .grid-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* line 326, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  #schedule-desktop {
+    display: grid;
+  }
+  /* line 330, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  #schedule {
+    display: none;
+  }
+  /* line 336, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .schedule-container .container-primary h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* line 348, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .modalidades-list .container-primary {
+    max-width: 1280px;
+  }
+  /* line 353, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .schedule-container .container-primary {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* line 364, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/school.scss */
+  .modalidades-list .container-primary {
+    max-width: 1600px;
+  }
+}
+
+/*# sourceMappingURL=school.css.map */

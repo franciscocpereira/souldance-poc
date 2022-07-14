@@ -1,0 +1,89 @@
+body {
+  background-color: #E2DCF9;
+}
+
+section {
+  background: none;
+}
+
+.register {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.register h2 {
+  text-align: center;
+  padding: 120px 0px 15px;
+}
+
+.register h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.register p {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.register .grid-1 {
+  gap: 20px;
+}
+
+.register .subgrid-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+.register .subgrid {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+.register .subgrid-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.register .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+.register .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+input[type=text] {
+  background: none;
+}
+/*# sourceMappingURL=register-mobile.css.map */

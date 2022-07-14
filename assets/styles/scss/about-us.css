@@ -1,0 +1,141 @@
+body {
+  background-color: #FFEBF3;
+}
+
+section {
+  background: none;
+}
+
+.about-us {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.about-us h2 {
+  text-align: left;
+  padding: 120px 0px 15px;
+}
+
+.about-us h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.about-us p {
+  max-width: 300px;
+  text-align: left;
+}
+
+.about-us .grid-1 {
+  gap: 20px;
+}
+
+.about-us .subgrid-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+.about-us .subgrid {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-us .subgrid-6 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      grid-template-areas: ". about-us-img about-us-img about-us-img about-us-img . ";
+}
+
+.about-us .subgrid-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.about-us .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+.about-us .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+.professors .subgrid-2 h5 {
+  padding: 10px 0px 10px 0px;
+}
+
+.about-us-img {
+  width: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: about-us-img;
+}
+
+.founder {
+  max-width: 400px;
+  padding: 0px 40px 40px 40px;
+}
+
+.founder-img {
+  padding: 20px 40px 20px 40px;
+  max-width: 400px;
+}
+
+.professor-img {
+  padding: 20px 0px 20px 0px;
+}
+
+#founder-title {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #836BD1;
+  padding: 5px 0px 5px 0px;
+}
+
+#founder-description {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+input[type=text] {
+  background: none;
+}
+/*# sourceMappingURL=about-us.css.map */

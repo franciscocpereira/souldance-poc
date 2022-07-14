@@ -1,0 +1,98 @@
+body {
+  background-color: #E2DCF9;
+}
+
+section {
+  background: none;
+}
+
+.subscribing {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.subscribing h2 {
+  text-align: center;
+  padding: 120px 0px 15px;
+}
+
+.subscribing h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.subscribing p {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.subscribing .grid-1 {
+  gap: 20px;
+}
+
+.subscribing .subgrid-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 20px;
+  padding: unset;
+}
+
+.subscribing .subgrid {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+.subscribing .subgrid-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribing .register-links {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.subscribing .register-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+.subscribing .register-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+input[type=text] {
+  background: none;
+}
+
+#Yes, #No {
+  width: unset;
+  padding: unset;
+}
+
+label {
+  padding: 10px 10px 10px 0px;
+}
+/*# sourceMappingURL=subscribing-mobile.css.map */

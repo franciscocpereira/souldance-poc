@@ -1,0 +1,262 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+/* line 3, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+/* line 11, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 24, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container nav {
+  display: none;
+  -ms-grid-columns: auto [7];
+  grid-template-columns: repeat(7, auto);
+  align-items: center;
+}
+
+/* line 30, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container nav a {
+  color: inherit;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 300 !important;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer !important;
+  pointer-events: auto;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container nav a:hover {
+  opacity: 0.6;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+/* line 47, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container nav a.button-negative {
+  opacity: 1;
+}
+
+/* line 51, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container nav a#button-login-desktop {
+  padding-right: 0px;
+}
+
+/* line 57, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container h2 {
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* line 63, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container h2 span {
+  font-weight: 600;
+}
+
+/* line 68, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container .hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+/* line 80, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container .hamburger .bar, header .container .hamburger:after, header .container .hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  margin: 7px 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* line 95, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container .hamburger.is-active:before {
+  -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+/* line 99, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container .hamburger.is-active:after {
+  -webkit-transform: rotate(45deg) translate(-9px, -8px);
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+/* line 103, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header .container .hamburger.is-active .bar {
+  opacity: 0;
+}
+
+/* line 111, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header.is-scrolling {
+  background-color: black;
+  transition: ease-in-out 500ms;
+}
+
+/* line 115, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+header.is-scrolling .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: ease-in-out 500ms;
+}
+
+/* line 130, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 98;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* line 144, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+.mobile-nav.is-active {
+  left: 0;
+}
+
+/* line 148, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+.mobile-nav .top {
+  display: grid;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+/* line 154, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+.mobile-nav .top a {
+  display: block;
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.01rem;
+  padding: 12px 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 170, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+.mobile-nav .bottom {
+  display: grid;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+/* line 175, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+.mobile-nav .bottom a {
+  display: block;
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding: 12px 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 199, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+  nav.mobile-nav {
+    display: none;
+  }
+  /* line 206, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+  header .container .hamburger {
+    display: none;
+  }
+  /* line 215, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+  header .container {
+    padding-top: 60px;
+  }
+  /* line 218, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/header-navigation.scss */
+  header .container nav {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+/*# sourceMappingURL=header-navigation.css.map */

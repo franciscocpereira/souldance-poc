@@ -1,0 +1,61 @@
+body {
+  background-color: #E2DCF9;
+  overflow: hidden;
+}
+
+section {
+  background: none;
+}
+
+.login {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.login h2 {
+  text-align: center;
+  padding: 110px 0px 20px;
+}
+
+.login h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.login .grid-1 {
+  gap: 20px;
+}
+
+.login .subgrid {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+.login .login-links {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.login .login-links .section-mobile-a {
+  font-weight: 600;
+  padding: 30px;
+}
+
+.login .login-links .line-link {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.8rem;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+input[type=text] {
+  background: none;
+}
+/*# sourceMappingURL=login-mobile.css.map */

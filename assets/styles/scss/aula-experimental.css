@@ -1,0 +1,287 @@
+#branding-quote-1 {
+  position: absolute;
+  top: -40px;
+  left: -60px;
+}
+
+#branding-quote-2 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  position: absolute;
+  top: 100px;
+  left: 330px;
+}
+
+.aula-experimental {
+  background: #ffffff;
+}
+
+.aula-experimental h2 {
+  padding-bottom: 40px;
+}
+
+.aula-experimental h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.aula-experimental-desktop {
+  display: none;
+}
+
+.aula-experimental-desktop .grid-6 {
+      grid-template-areas: "aula-experimental-container aula-experimental-container aula-experimental-container . comment-section comment-section";
+}
+
+.aula-experimental-desktop h2 {
+  padding-bottom: 40px;
+}
+
+.aula-experimental-desktop h6 {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.aula-experimental-form-row-5-item-2 input {
+  display: block;
+  color: black;
+  margin: 0;
+  border: 2px solid black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.aula-experimental-container {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: aula-experimental-container;
+}
+
+.comment-section {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-area: comment-section;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+}
+
+.comment-p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.comment-owner {
+  text-transform: uppercase;
+  color: #836BD1;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: -0.002em;
+  margin-top: 20px;
+}
+
+.aula-experimental-form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aula-experimental-form h6 {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Basier Circle';
+  opacity: 0.3;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  font-family: 'Basier Circle';
+  opacity: 0.3;
+  font-weight: 300;
+}
+
+::-ms-input-placeholder {
+  font-family: 'Basier Circle';
+  opacity: 0.3;
+  font-weight: 300;
+}
+
+::placeholder {
+  font-family: 'Basier Circle';
+  opacity: 0.3;
+  font-weight: 300;
+}
+
+/* - Rows - */
+/* - Row 1 - */
+.aula-experimental-form-row-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.aula-experimental-form-row-1 .aula-experimental-form-row-1-item-1 {
+  width: 100%;
+}
+
+.aula-experimental-form-row-1 .aula-experimental-form-row-1-item-2 {
+  width: 220px;
+}
+
+/* - Row 2 - */
+.aula-experimental-form-row-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-areas: "modal modal modal tlm tlm";
+  gap: 20px;
+}
+
+.aula-experimental-form-row-2 .aula-experimental-form-row-2-item-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: modal;
+}
+
+.aula-experimental-form-row-2 .aula-experimental-form-row-2-item-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: tlm;
+}
+
+/* - Row 3 - */
+.aula-experimental-form-row-3 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.aula-experimental-form-row-3 .aula-experimental-form-row-3-item-1 {
+  width: 100%;
+}
+
+/* - Row 4 - */
+.aula-experimental-form-row-4 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.aula-experimental-form-row-4 .aula-experimental-form-row-4-item-1 {
+  width: 100%;
+}
+
+/* - Row 5 - */
+.aula-experimental-form-row-5 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.aula-experimental-form-row-5 section p {
+  font-size: 0.8rem;
+  padding-bottom: 0px !important;
+}
+
+.aula-experimental-form-row-5 .aula-experimental-form-row-5-item-1 {
+  width: 100%;
+}
+
+.aula-experimental-form-row-5 .aula-experimental-form-row-5-item-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* - Row 6 - */
+.aula-experimental-form-row-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.aula-experimental-form-row-6 .section-link {
+  padding-top: 40px;
+}
+
+.aula-experimental-form-row-6 .section-link .button {
+  background-color: #836BD1;
+}
+
+/* - Row 7 - */
+@media screen and (min-width: 1024px) {
+  .aula-experimental-desktop {
+    display: unset;
+  }
+  .aula-experimental {
+    display: none;
+  }
+  .aula-experimental-form-row-1 {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .aula-experimental-form-row-2 {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .aula-experimental-form-row-4 {
+    width: 155px;
+  }
+  .aula-experimental-form-row-2,
+  .aula-experimental-form-row-3,
+  .aula-experimental-form-row-4 {
+    margin-top: 0 !important;
+  }
+  .aula-experimental-form-row-1-item-1 {
+    padding-right: 0px;
+  }
+  .aula-experimental-form-row-1-item-2 {
+    margin-right: 0;
+    width: 240px;
+  }
+  .aula-experimental-form-row-2-item-1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: modal;
+  }
+  .aula-experimental-form-row-5 .aula-experimental-form-row-5-item-2 {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=aula-experimental.css.map */

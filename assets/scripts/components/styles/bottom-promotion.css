@@ -1,0 +1,105 @@
+/* Desktop */
+/* .bottom-promotion-desktop{
+
+    background: url(/assets/media/souldance_kids_promo_bg_desktop.png);
+    background-position: 70ch -3rem;
+    background-repeat: no-repeat;
+}
+
+.bottom-promotion-desktop-container {
+    display: grid;
+    max-width: 1280px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "promotion-copy promotion-copy . .";
+    gap:20px;
+    padding: 70px;
+    margin: 0 auto;
+}
+
+div.bottom-promotion-desktop-copy {
+    grid-area: promotion-copy;
+
+}
+.bottom-promotion-desktop-copy > h2 {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.bottom-promotion-desktop-copy > p {
+    max-width: 380px ;
+}
+
+.bottom-promotion-desktop-container > div > h2 > span {
+    color: #836BD1;
+} */
+
+/* @media (max-width: 1024px) {
+    .bottom-promotion-desktop-container {
+        padding-left: 64px;
+    }
+    .bottom-promotion-desktop-container > div > p {
+        font-size: 0.9rem;
+    }
+} */
+
+/* Mobile */
+
+/* .bottom-promotion-mobile {
+    min-height: 50vh;
+    background-image: url('/assets/media/souldance_kids_promo_bg_mobile.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.bottom-promotion-mobile > .container > h2 {
+    padding-top: 25%;
+    padding-bottom: 12.5px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.bottom-promotion-mobile > .container > h2 > span {
+    color: #836BD1;
+}
+
+.bottom-promotion-mobile .section-p{
+    text-align: center;
+}
+
+.bottom-promotion-mobile > .container > button {
+    padding-bottom: 15px;
+    background-color: #836BD1;
+} */
+/* 
+@media (max-width: 767px) {
+	.bottom-promotion-desktop {
+        display: none;
+    }
+} */
+
+/* @media (min-width: 767px) {
+	.bottom-promotion-mobile {
+        display: none;
+    }
+} */
+
+/* @media (min-width: 1280px) {
+	.bottom-promotion-desktop {
+       background-position: 50vw -3rem;
+    }
+} */
+
+/* @media (min-width: 1440px) {
+	.bottom-promotion-desktop {
+        background-position: 50vw -3rem;
+    }
+} */
+
+/* @media (min-width: 1930px) {
+	.bottom-promotion-desktop {
+       background-position: 50vw -3rem;
+       background-size: 50vw;
+    }
+} */

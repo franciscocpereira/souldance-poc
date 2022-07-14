@@ -1,0 +1,402 @@
+/* section.aula-experimental {
+    background: white;
+} */
+
+
+/* Select */
+
+/* select{
+    display: block;
+    font-size: 16px;
+    font-family: 'Basier Circle';
+    font-weight: 600;
+    color: #444;
+    line-height: 1.3;
+    padding: 0.6rem 0.8em 0.7em .8em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 2px solid black;
+    box-shadow: none;
+    border-radius: 5px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background:  url("/assets/media/icons/chevron-down.svg") no-repeat;
+    background-position: right 10px top 50%;
+} */
+
+/* input */
+
+/* input{
+    display: block;
+    font-size: 16px;
+    font-family: 'Basier Circle';
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    line-height: 1.3;
+    padding: 0.6rem 0.8em 0.7em .8em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 2px solid black;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: #fff;
+} */
+
+/* input[type=text]:focus, select:focus{
+    border: 2px solid var(--purple) !important;
+    outline: none;
+}
+
+#branding-quote-1{
+    position: absolute;
+    top: -40px;
+    left: -90px;
+}
+
+#branding-quote-2{
+    transform: rotate(180deg);
+    position: absolute;
+    top: 100px;
+    left: 330px;
+} */
+
+
+/* .aula-experimental-desktop .grid-6{
+    grid-template-areas:"aula-experimental-container aula-experimental-container aula-experimental-container . comment-section comment-section" ;
+}
+
+.aula-experimental-container{
+    grid-area: aula-experimental-container;
+}
+
+.comment-section{
+    grid-area: comment-section;
+    align-self: center;
+    position: relative;
+}
+
+.comment-p{
+    font-size:1.4rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.comment-owner {
+    text-transform: uppercase;
+    color: var(--purple);
+    font-weight: 600;
+    font-size:1.4rem;
+    letter-spacing: -0.002em;
+    margin-top: 20px;
+} */
+
+/* - Form - */
+
+
+/* .aula-experimental-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+::placeholder{
+    font-family: 'Basier Circle';
+    opacity:0.3;
+    font-weight: 300;
+}
+
+.aula-experimental, .aula-experimental-desktop h6{
+    font-weight: 300;
+    font-size: 0.7rem;
+} */
+
+
+
+/* - Rows - */
+
+/* - Row 1 - */
+
+/* .aula-experimental-form-row-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+    .aula-experimental-form-row-1-item-1{
+        width: 100%;
+    }
+
+    .aula-experimental-form-row-1-item-2{
+        width: 220px;
+    } */
+
+/* - Row 2 - */
+
+/* .aula-experimental-form-row-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+    .aula-experimental-form-row-2-item-1{
+        grid-area: modal;
+    }
+
+    .aula-experimental-form-row-2-item-2{
+        grid-area: tlm;
+    } */
+
+/* - Row 3 - */
+
+/* .aula-experimental-form-row-3{
+    display:grid;
+}
+
+    .aula-experimental-form-row-3-item-1{
+        width: 100%;
+    } */
+
+/* - Row 4 - */
+
+/* .aula-experimental-form-row-4{
+    display:grid;
+}
+
+    .aula-experimental-form-row-4-item-1{
+        width: 100%;
+    } */
+
+/* - Row 5 - */
+
+/* .aula-experimental-form-row-5{
+    display:grid;
+
+}
+    .aula-experimental-form-row-5 p{
+        font-size: 0.8rem;
+    }
+
+    .aula-experimental-form-row-5-item-1{
+        width: 100%;
+    }
+
+    .aula-experimental-form-row-5-item-2{
+        display: flex;
+        flex-direction: row;
+        margin-top:20px;
+        align-items: center
+    } */
+
+/* - Row 6 - */
+
+/* .aula-experimental-form-row-6{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.aula-experimental-form-row-6 .section-link{
+    padding-top:40px;
+}
+
+.aula-experimental-form-row-6 .section-link .button{
+    background-color: var(--purple);
+} */
+
+/* - Row 7 - */
+
+/* .aula-experimental-form-row-7{
+    display:flex;
+    flex-direction: row;
+} */
+
+
+
+
+
+/* Checkbox */ 
+
+/* .aula-experimental-form-row-5-item-2 input{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: ;
+    margin: 0;
+    border: 2px solid black;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+label{
+    font-family: 'Basier Circle';
+    font-weight: 300;
+    padding: 10px;
+    font-size: 0.8rem;
+    cursor: none;
+}
+
+input[type=checkbox] {
+    visibility: ;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    appearance: none;
+    -webkit-appearance: none;
+    transition: all 700ms ease-in-out;
+}
+  
+
+#checkboxInputOverride {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    width: 0px;
+    transition: all 700ms ease-in-out;
+}
+  
+#checkboxInputOverride :before {
+    content: "";
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    color: transparent;
+    
+}
+
+#checkboxInputOverride:active:before {
+    transition: all 700ms ease-in-out;
+
+}
+
+#checkboxInputOverride:checked {
+    content: url('/assets/media/icons/check.svg');
+    color: #fff;
+    width: 7px;
+    height: auto;
+    transition: all 700ms ease-in-out;
+}
+
+#checkboxInputOverride:disabled:before {
+    transform: scale(1);
+    border-color: #aaa;
+}
+
+#checkboxInputOverride:checked:disabled:before {
+    transform: scale(1);
+    background-color: #bfb;
+    border-color: #bfb;
+} */
+
+
+/* Queries */
+
+/* @media (min-width: 1024px) { */
+    
+    /* .aula-experimental-form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }   */
+
+    /* .aula-experimental{
+        display: none;
+    } */
+    
+    /*form rows*/ 
+
+    /* .aula-experimental-form-row-1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    } */
+
+    /* .aula-experimental-form-row-2{
+        
+    }
+
+    .aula-experimental-form-row-3{
+        
+    } */
+
+    /* .aula-experimental-form-row-4{
+        width: 155px;
+    } */
+
+    /* .aula-experimental-form-row-5{
+    } */
+
+    /* .aula-experimental-form-row-7{
+        display:none;
+    } */
+
+    /* .aula-experimental-form-row-2, 
+    .aula-experimental-form-row-3, 
+    .aula-experimental-form-row-4 {
+
+        margin-top:0 !important;
+    } */
+
+    /*row items*/
+    /* .aula-experimental-form-row-1-item-1 {
+        padding-right: 0px;
+    }
+    .aula-experimental-form-row-1-item-2 {
+        margin-right: 0;
+        width: 240px;
+    }
+    .aula-experimental-form-row-2-item-1 {
+        grid-area: modal;
+    }
+    .aula-experimental-form-row-3-item-1 {
+
+    }
+    .aula-experimental-form-row-4-item-1 {
+
+    }*/
+
+/* }      */
+
+/* @media (max-width: 1024px) { 
+
+    .aula-experimental-form h6 {
+        font-size:0.7rem;
+        font-weight: 300;
+        margin-bottom: 10px;
+    } 
+
+    .aula-experimental-form-row-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    } 
+
+    .aula-experimental-form-row-2 {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas: "modal modal modal tlm tlm";
+        gap: 20px;
+    } 
+
+    .section-link-row-4 {
+        display: none;
+    } 
+
+    .aula-experimental-desktop {
+        display: none;
+    }
+    
+} */
+
+/* @media only screen and (min-width: 1024px) and (max-width: 1440px){
+    
+} */

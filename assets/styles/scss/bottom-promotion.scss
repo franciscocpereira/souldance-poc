@@ -1,0 +1,132 @@
+@import 'variables.scss';
+
+
+//desktop 
+.bottom-promotion-desktop {
+
+    display: none;
+    background: url(/assets/media/souldance_kids_promo_bg_desktop.png);
+    background-position: 70ch -3rem;
+    background-repeat: no-repeat;
+}
+
+.bottom-promotion-desktop-container {
+    display: grid;
+    max-width: 1280px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "promotion-copy promotion-copy . .";
+    gap:20px;
+    padding: 70px;
+    margin: 0 auto;
+
+    div {
+        h2 {
+            span {
+                color: $purple;
+            }
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+.bottom-promotion-desktop-copy {
+
+    div{
+        grid-area: promotion-copy;
+    }
+
+    h2 {
+        margin-bottom: 0px;
+        text-align: left;
+    }
+    p {
+        max-width: 380px ;
+    }
+} 
+
+
+//mobile
+
+.bottom-promotion-mobile {
+    min-height: 40vh;
+    background-image: url('/assets/media/souldance_kids_promo_bg_mobile.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.bottom-promotion-mobile {
+
+    .container {
+
+        h2 {
+            padding-bottom: 12.5px;
+            color: #fff;
+            margin-bottom: 0;
+
+            span {
+                color: $purple;
+            }
+        }
+
+        button {
+            padding-bottom: 15px;
+            background-color: $purple;
+        }
+    }
+    
+    .section-p {
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+} 
+
+
+// QUERIES
+
+// Large mobiles and Tablets
+@media screen and (min-width: 768px) {  
+    
+   
+}
+
+// Laptops and small screens
+@media screen and (min-width: 1024px) {
+
+    .bottom-promotion-desktop {
+        display: block;
+    }
+
+    .bottom-promotion-mobile {
+        display: none;
+    }
+}
+
+// laptops and desktops
+@media screen and (min-width: 1280px) {
+
+    .bottom-promotion-desktop {
+        background-position: 50vw -3rem;
+     }
+    
+}
+
+// Desktops and large desktops
+@media screen and (min-width: 1920px) {
+
+    .bottom-promotion-desktop {
+        background-size: 60%;
+    }
+
+    .bottom-promotion-desktop-container {
+        max-width: 1600px;
+    }
+}

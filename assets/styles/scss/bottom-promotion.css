@@ -1,0 +1,103 @@
+.bottom-promotion-desktop {
+  display: none;
+  background: url(/assets/media/souldance_kids_promo_bg_desktop.png);
+  background-position: 70ch -3rem;
+  background-repeat: no-repeat;
+}
+
+.bottom-promotion-desktop-container {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1280px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: "promotion-copy promotion-copy . .";
+  gap: 20px;
+  padding: 70px;
+  margin: 0 auto;
+}
+
+.bottom-promotion-desktop-container div h2 span {
+  color: #836BD1;
+}
+
+.bottom-promotion-desktop-container div p {
+  font-size: 0.9rem;
+}
+
+.bottom-promotion-desktop-copy div {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: promotion-copy;
+}
+
+.bottom-promotion-desktop-copy h2 {
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.bottom-promotion-desktop-copy p {
+  max-width: 380px;
+}
+
+.bottom-promotion-mobile {
+  min-height: 40vh;
+  background-image: url("/assets/media/souldance_kids_promo_bg_mobile.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.bottom-promotion-mobile .container h2 {
+  padding-bottom: 12.5px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.bottom-promotion-mobile .container h2 span {
+  color: #836BD1;
+}
+
+.bottom-promotion-mobile .container button {
+  padding-bottom: 15px;
+  background-color: #836BD1;
+}
+
+.bottom-promotion-mobile .section-p {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .bottom-promotion-desktop {
+    display: block;
+  }
+  .bottom-promotion-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .bottom-promotion-desktop {
+    background-position: 50vw -3rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .bottom-promotion-desktop {
+    background-size: 60%;
+  }
+}
+/*# sourceMappingURL=bottom-promotion.css.map */

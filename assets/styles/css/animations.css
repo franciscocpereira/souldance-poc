@@ -1,0 +1,110 @@
+/* line 31, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.bachata {
+  color: #FDA219;
+}
+
+/* line 32, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.ballet {
+  color: #FE94B9;
+}
+
+/* line 33, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.contemporaneo {
+  color: #997FFF;
+}
+
+/* line 34, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.high-heels {
+  color: #DF1552;
+}
+
+/* line 35, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.kizomba {
+  color: #A72901;
+}
+
+/* line 36, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas {
+  color: #DD664D;
+}
+
+/* line 37, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.latinas-kids {
+  color: #FF630C;
+}
+
+/* line 38, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.pop-dance {
+  color: #55ADFF;
+}
+
+/* line 39, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/variables.scss */
+.salsa {
+  color: #4BCD4A;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTop2 {
+  0% {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop3 {
+  0% {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+  40% {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Header */
+/* line 45, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/animations.scss */
+#logo-horizontal, nav {
+  animation: slideInFromTop 600ms ease-in-out;
+}
+
+/* line 50, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/animations.scss */
+#hero-headline, #hero-text-desktop {
+  animation: slideInFromTop2 1000ms ease-in-out;
+}
+
+/* line 54, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/animations.scss */
+#dash1, #hero-signature, .bottom-social {
+  animation: slideInFromTop3 800ms ease-in-out;
+}
+
+/* buttons */
+/* line 61, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/animations.scss */
+.icon-small {
+  transition: 0.3s ease-in-out;
+}
+
+/* line 65, ../../../Documents/GitHub/souldance-frontend-poc-v2/assets/styles/scss/animations.scss */
+.section-mobile-a:hover .icon-small {
+  margin-left: 14px;
+}
+
+/*# sourceMappingURL=animations.css.map */

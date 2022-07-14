@@ -1,0 +1,270 @@
+
+@import 'variables.scss';
+
+
+#branding-quote-1{
+    position: absolute;
+    top: -40px;
+    left: -60px;
+}
+
+#branding-quote-2{
+    transform: rotate(180deg);
+    position: absolute;
+    top: 100px;
+    left: 330px;
+}
+
+.aula-experimental {
+    background: $white;
+
+    h2 {
+        padding-bottom: 40px;
+    }
+    
+    h6 {
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+}
+
+.aula-experimental-desktop {
+    display: none;
+
+    .grid-6 {
+        grid-template-areas:"aula-experimental-container aula-experimental-container aula-experimental-container . comment-section comment-section" ;
+    }
+
+    h2 {
+        padding-bottom: 40px;
+    }
+
+    h6 {
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+}
+
+
+
+// Checkbox 
+
+.aula-experimental-form-row-5-item-2 input {
+    display: block;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    border: 2px solid black;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+
+// containers 
+
+.aula-experimental-container {
+    grid-area: aula-experimental-container;
+}
+
+// comment 
+
+.comment-section {
+    grid-area: comment-section;
+    align-self: center;
+    position: relative;
+}
+
+.comment-p {
+    font-size:1.4rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.comment-owner {
+    text-transform: uppercase;
+    color: $purple;
+    font-weight: 600;
+    font-size:1.4rem;
+    letter-spacing: -0.002em;
+    margin-top: 20px;
+}
+
+//form
+
+.aula-experimental-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    h6 {
+        font-size:0.7rem;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+}
+
+::placeholder {
+    font-family: 'Basier Circle';
+    opacity:0.3;
+    font-weight: 300;
+}
+
+/* - Rows - */
+
+/* - Row 1 - */
+
+.aula-experimental-form-row-1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+    .aula-experimental-form-row-1-item-1 {
+        width: 100%;
+    }
+
+    .aula-experimental-form-row-1-item-2 {
+        width: 220px;
+    }
+}
+
+/* - Row 2 - */
+
+.aula-experimental-form-row-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "modal modal modal tlm tlm";
+    gap: 20px;
+
+    .aula-experimental-form-row-2-item-1 {
+        grid-area: modal;
+    }
+
+    .aula-experimental-form-row-2-item-2 {
+        grid-area: tlm;
+    }
+}
+
+/* - Row 3 - */
+
+.aula-experimental-form-row-3 {
+    display:grid;
+
+    .aula-experimental-form-row-3-item-1 {
+        width: 100%;
+    }
+}
+
+/* - Row 4 - */
+
+.aula-experimental-form-row-4 {
+    display:grid;
+
+    .aula-experimental-form-row-4-item-1 {
+        width: 100%;
+    }
+}
+
+/* - Row 5 - */
+
+.aula-experimental-form-row-5 {
+    display:grid;
+
+    section p {
+        font-size: 0.8rem;
+        padding-bottom: 0px !important;
+    }
+
+    .aula-experimental-form-row-5-item-1 {
+        width: 100%;
+    }
+
+    .aula-experimental-form-row-5-item-2 {
+        display: flex;
+        flex-direction: row;
+        margin-top:20px;
+        align-items: center
+    }
+}
+    
+/* - Row 6 - */
+
+.aula-experimental-form-row-6{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    .section-link {
+        padding-top:40px;
+
+        .button {
+            background-color: $purple;
+        }
+    }
+}
+
+/* - Row 7 - */
+
+// .aula-experimental-form-row-7{
+//     display:flex;
+//     flex-direction: row;
+// }
+
+
+// Laptops and small screens
+@media screen and (min-width: 1024px) {
+
+    .aula-experimental-desktop {
+        display: unset;
+    }
+
+    .aula-experimental {
+        display: none;
+    }
+
+    .aula-experimental-form-row-1 {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .aula-experimental-form-row-2 {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .aula-experimental-form-row-4 {
+        width: 155px;
+    }
+
+    .aula-experimental-form-row-2, 
+    .aula-experimental-form-row-3, 
+    .aula-experimental-form-row-4 {
+
+        margin-top:0 !important;
+    }
+
+    //rows
+    .aula-experimental-form-row-1-item-1 {
+        padding-right: 0px;
+    }
+    .aula-experimental-form-row-1-item-2 {
+        margin-right: 0;
+        width: 240px;
+    }
+    .aula-experimental-form-row-2-item-1 {
+        grid-area: modal;
+    }
+
+    .aula-experimental-form-row-5 {
+        .aula-experimental-form-row-5-item-2 {
+            margin-top: 0px;
+        }
+    }
+    
+}
+
+
+
+
+
+

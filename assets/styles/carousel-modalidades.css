@@ -1,0 +1,163 @@
+/* Note: This example shows the content as fullscreen with only one item displayed at once*/
+/* Adjust sizing to fit your content/use case*/
+
+/* body {
+  width: 100vw;
+  background-color: white;
+  overflow-x: hidden !important;
+} */
+
+/* #touch-container {
+  position: relative;
+  height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden; 
+}
+
+#rendered-items-flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+  min-height: fit-content;
+  width: 100%;
+  touch-action: pan-y; 
+} */
+
+/* .container-touch-large{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+
+
+/* Removes all translation effects for those who prefer less animation*/
+/* @media (prefers-reduced-motion: reduce) {
+  #rendered-items-flexbox {
+    transform:  !important;
+  }
+} */
+
+/* Transition classes*/
+/* .transition-initial {
+  transition: transform 0s ease,
+} */
+
+/*
+.transition-item {
+  transition: transform 250ms cubic-bezier(0.0, 0.0, 0.2, 1); */ /* ease-out timing function
+} */
+
+/* .transition-edge {
+  transition: transform 500ms ease-out;
+} */
+ 
+/* .rendered-item {
+  height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+} */
+
+/* .item-content {
+  height: 100%;
+  width: 250px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+} */
+
+
+/* Left and right tap targets*/
+/* .touch-tap-left,
+.touch-tap-right {
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+}
+
+.touch-tap-left {
+  left: 0;
+}
+
+.touch-tap-right {
+  right: 0;
+} */
+
+
+/* This is good for accessibility, so instead use polyfill for :focus-visible*/
+/* https://github.com/WICG/focus-visible*/
+/* .touch-tap-left:focus, .touch-tap-right:focus {
+  outline: none;
+}
+
+.left-edge-shape, .right-edge-shape {
+  position: absolute;
+  fill: white;
+  opacity: 0.3;
+}
+
+.left-edge-shape {
+  left: 0;
+  transform-origin: left;
+}
+
+.right-edge-shape {
+  right: 0;
+  transform-origin: right;
+}
+
+.nome-modalidade {
+  padding: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-size: 1.2rem;
+}
+
+.dias-modalidade {
+  padding: 20px;
+  font-weight: 300;
+} */
+
+/* @media (max-width: 1024px){
+
+  .container-touch-large {
+    margin: 0;
+    padding: 0;  
+  }
+} */
+
+
+/* @media (min-width: 1024px){
+   
+  .rendered-item {
+    min-width: 0;
+  }
+
+  body {
+    overflow-x: hidden !important;
+  }
+}
+
+@media (min-width: 1440px){
+   
+  .rendered-item {
+    min-width: 0;
+    padding-right: 20px;
+  }
+
+} */
+
+
+
+

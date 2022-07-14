@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Souldance PoC</title>
+        
+        <!-- Sass -->
+        <link rel="stylesheet" href="/assets/styles/css/fonts.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/styles.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/animations.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/header-navigation.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/about-us.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="/assets/styles/css/login.css" type="text/css" charset="utf-8">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/souldance_logo_icon_positive.svg"/>
+        <link rel="icon" type="image/png" href="https://code-server.kuji.pt/assets/media/souldance_logo_icon_positive.svg"/>
+
+	</head>
+	<body>
+        <div id="app">
+        <header-navigation></header-navigation>
+        <main>
+            <section class="about-us">
+                <div class="container-primary">
+                    <div class="subgrid-4">
+                        <div>
+                            <h2 class="section-h2">Sobre nós</h2>
+                            <p class="about-us-text">Mattis enim ut tellus elementum. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Pellentesque massa placerat duis ultricies lacus sed turpis. Nisi est sit amet facilisis magna etiam tempor. In ornare quam viverra orci sagittis eu volutpat odio. Laoreet id donec ultrices tincidunt arcu. Auctor urna nunc id cursus. Volutpat blandit aliquam etiam erat velit. Morbi tincidunt augue interdum velit euismod. Nec ultrices dui sapien eget. Euismod elementum nisi quis eleifend quam adipiscing vitae proin.</p>
+                        </div>
+                        <div class="founder-img">
+                            <h6>Fundadora</h6>
+                            <img class="about-us-img" src="https://code-server.kuji.pt/assets/media/Ana.png"/>
+                            <h3 id="founder-name">Ana Cardoso</h3>
+                            <p id="founder-title">Fundadora da Souldance, coreógrafa, dançarina e professora</p>
+                            <p id="founder-description">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus. </p>
+                        </div>
+                        <div class="professors">
+                            <h6>Professores</h6>
+                            <div class="subgrid-2">
+                                <img class="professor-img" src="https://code-server.kuji.pt/assets/media/professor1.png"/>
+                                <img class="professor-img" src="https://code-server.kuji.pt/assets/media/professor2.png"/>
+                            </div>
+                            <div class="subgrid-2">
+                                <h5>Mariana Silva</h5>
+                                <h5>João Tristão</h5>
+                            </div>
+                            <div class="subgrid-2">
+                                <p id="founder-description">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus. </p>
+                                <p id="founder-description">At tellus at urna condimentum mattis. Facilisis magna etiam tempor orci eu lobortis ementum nibh tellus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <bottom-navigation>
+            </bottom-navigation>    
+        </main>
+    
+        </div>
+
+        
+        <!-- JS -->
+        <script src="/assets/scripts/main.js"></script>
+
+        <!-- Vue Development -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+        <!-- Vue Production -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+
+        <!-- Axios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+
+        <!-- Components -->
+		<script src="assets/scripts/components/header-navigation.js"></script>
+        <script src="assets/scripts/components/aula-experimental.js"></script>
+		<script src="assets/scripts/components/bottom-promotion.js"></script>
+        <script src="assets/scripts/components/bottom-navigation.js"></script>
+        <script src="assets/scripts/components/login-desktop.js"></script>
+
+        <!-- App -->
+		<script src="assets/scripts/index.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,63 @@
+
+@import 'variables.scss';
+
+body {
+    background-color: $light-purple;
+    overflow: hidden;
+}
+
+section {
+    background: none;
+}
+
+
+.login {
+    height: 100vh;
+    display: grid;
+    align-items:center;
+    padding: 30px;
+
+    h2 {
+        text-align: center;
+        padding: 110px 0px 20px;
+    }
+
+    h6 {
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+
+    .grid-1 {
+        gap:20px;
+    }
+
+    .subgrid {
+        display: grid;
+        gap: 10px;
+    }
+
+    .login-links {
+        padding-top: 60px;
+        padding-bottom:60px;
+
+        .section-mobile-a{
+            font-weight: 600;
+            padding:30px;
+        }
+
+        .line-link {
+            text-decoration: none;
+            text-transform: none;
+            font-size:0.8rem;
+            padding-bottom: 15px;
+            color: $black;
+        }
+
+
+    }
+}
+
+
+input[type=text] {
+    background: none;
+}

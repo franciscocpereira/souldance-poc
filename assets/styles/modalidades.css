@@ -1,0 +1,28 @@
+/* section.modalidades, .modalidades-mobile {
+    background: var(--lightpink);
+}
+
+.modalidades .section-link a svg {
+    path:var(--lightpurple);   
+    fill: var(--lightpurple);
+}
+
+.modalidades-mobile .section-link {
+    padding: 80px 50px 50px;
+
+}
+
+@media only screen and (min-width: 1024px){
+    .modalidades-mobile{
+        display: none;
+    }
+    .container-touch-large{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .modalidades{
+        display: none;
+    }
+} */
